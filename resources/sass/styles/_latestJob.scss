@@ -4,10 +4,21 @@
 // =======================================================
 .latestJob {
   display: none;
-  padding: 15px calc(100vw / 750 * 40) 35px;
-  background: $baseBgColor;
+  background: #ffffff;
+  margin-top: -64px !important;
+  width: 93% !important;
+  margin-right: 0px;
+  margin-left: 0px !important;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  padding: 9px 10px 18px 3px;
+  box-shadow: 0px 3px 6px #E2ECFB;
   @include minWidthXs {
-    padding: 35px 0;
+    padding: 20px 0;
+    max-width: 100% !important;
+    background: none;
+    box-shadow: none;
+
   }
 }
 
@@ -19,24 +30,32 @@
   width: calc(100% - 24px);
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 61px 0px 97px;
+  padding: 0px 61px 0px 97px !important;
   @include xs {
     position: relative;
     width: 100%;
+    padding: 0px 20px 0px 10px !important;
   }
 }
 
 .latestJobTitle {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   @include minWidthXs {
     width: 140px;
     margin-bottom: 0;
-  }
+    .en,
+    .ja {
+      display: block;
+    }
+
+
+    }
+
 
   .en,
   .ja {
-    display: block;
+    display: inline-block;
     color: $bgBaseTextColor;
     line-height: 1;
   }
@@ -46,7 +65,7 @@
     font-weight: 700;
     font-style: normal;
     letter-spacing: 0.0em;
-    font-size: rem(16);
+    font-size: rem(12);
     @include minWidthXs {
       font-size: 20px;
     }
@@ -54,7 +73,7 @@
 
   .ja {
     font-family: $fontZen;
-    font-size: 20px;
+    font-size: 14px;
     color: #1B5EC7;
     font-weight: 500;
     @include minWidthXs {
@@ -149,23 +168,16 @@
     position: absolute;
     right: 0;
     top: -5px;
+    right: 24px;
+        top: 24px;
   }
 
   .buttonText {
-    font-size: rem(13);
+    font-size: rem(0);
     color: #6D9EEB;
     position: relative;
     transition: all 0.3s ease;
     &::after {
-      // content: '\f061';
-      // display: inline-block;
-      // position: relative;
-      // top: -2px;
-      // transform: translateX(20px);
-      // font-family: "Font Awesome 5 Free";
-      // font-size: rem(11);
-      // font-weight: 600;
-      // transition: all 0.3s ease;
       content: "";
        position: absolute;
       background-image: url(/public/images/common/arrow-thin-right.svg);
