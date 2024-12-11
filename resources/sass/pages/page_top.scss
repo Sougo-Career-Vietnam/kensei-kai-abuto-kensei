@@ -1,0 +1,60 @@
+//共通設定読み込み
+@import "resources/sass/pages/common";
+#top {
+  //レイアウト読み込み
+  @import "resources/sass/layouts/layoutTop";
+
+  //ページ内要素
+  //@import "resources/sass/styles/topMovie";
+  @import "resources/sass/styles/mvSlider";
+  @import "resources/sass/styles/quickSearch";
+  //@import "resources/sass/styles/search_areaMap";
+  @import "resources/sass/styles/searchBox";
+  @import "resources/sass/styles/latestJob";
+  @import "resources/sass/styles/recommendJob";
+  @import "resources/sass/styles/topContentBox";
+  @import "resources/sass/styles/linkBoxAbout";
+
+  .latestJob {
+    position: relative;
+    z-index: 900;
+    margin: 0 auto;
+    @include minWidthXs {
+      margin-top: -174px;
+      max-width: $defInnerWidthPc;
+      height: 120px;
+      border-radius: 60px;
+      // box-shadow: 0px 3px 6px #E2ECFB;
+      position: relative;
+      z-index: 99;
+      &::after {
+        content: "";
+        position: absolute;
+        background: white;
+        box-shadow: 0px 3px 6px #E2ECFB;
+        width: calc(100% + 600px);
+        height: 120px;
+        left: -50%;
+        top: 0px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        z-index: -1;
+      }
+
+
+    }
+
+
+
+
+
+
+
+
+    @include xs {
+      margin-top: -25px;
+      width: calc(100% - (100vw / 750 * 70));
+    }
+  }
+
+}

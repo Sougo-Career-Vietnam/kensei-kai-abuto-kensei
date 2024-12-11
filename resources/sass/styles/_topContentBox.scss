@@ -1,0 +1,64 @@
+
+// =======================================================
+// TOPコンテンツ共通スタイル
+// =======================================================
+
+.js-clickitem {
+  @include minWidthXs {
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.commonInner{
+  width: calc(100% - 24px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contentHeading {
+
+  .en {
+    font-family: $fontDin;
+    font-weight: 700;
+    font-style: normal;
+    @include minWidthXs {
+    }
+  }
+
+  .ja {
+    display: block;
+    font-family: $fontZen;
+    font-style: normal;
+    @include minWidthXs {
+    }
+  }
+}
+
+
+
+/* MESSAGE
+------------------------------------------------------ */
+#message {
+  margin: 100px 0;
+}
+
+/* REASON
+------------------------------------------------------ */
+#reason {
+  margin: 100px 0;
+}
+
+/* WORKPLACE
+------------------------------------------------------ */
+#workplace {
+  margin: 100px 0;
+}
+
+/* WEBREGIST
+------------------------------------------------------ */
+#webregist {
+  margin: 100px 0;
+}
+

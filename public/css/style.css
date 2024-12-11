@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+@import url("./ress.min.css");
+
+
+/* ------------TOP----------------*/
+/* Căn chỉnh dots theo chiều dọc */
+.swiper-pagination {
+    position: absolute;
+    top:80.2%;
+    left: -30px !important; 
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column; 
+    gap: 25px; 
+    z-index: 10;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #E2ECFB !important; /* Màu mặc định */
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 1 !important;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #6D9EEB !important; /* Màu khi được chọn */
+    opacity: 1;
+    width: 12px !important;
+    height: 12px !important;
+    margin-left: 2.5px !important;
+}
+#top #mvSlider .mvWrapper .mvInner,#top #mvSlider {
+    overflow: unset !important
+}
+
+#top #mvSlider .mvWrapper .mvInner .mvMultiple {
+   overflow: hidden;
+}
+#top {
+    font-family: zen-maru-gothic, sans-serif !important;
+}
+
+
+#top #topMvSlider .flex-slider {
+    padding-left: calc(50% - 599px);
+    padding-right: 40px;
+    background-image: url(../images/contentBox/slider_bg_pc.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    background-position-y: -80px;
+}
+#top #topMvSlider {
+    position: relative;
+}
+#top #topMvSlider .vertical-text-01 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    line-height: 1.5;
+    padding: 10px;
+    position: absolute;
+    left: calc(50% - 838px);
+    top: 200px;
+    font-size: 40px;
+    color: #1B5EC7;
+    font-weight: 700;
+    line-height: 50px;
+}
+#top #topMvSlider .vertical-text-02 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    line-height: 1.5;
+    padding: 10px;
+    position: absolute;
+    left: calc(50% - 765px);
+    top: 150px;
+    font-size: 40px;
+    color: #1B5EC7;
+    font-weight: 700;
+    line-height: 50px;
+}
+#top #mvSlider .mvWrapper:after {
+    background: none !important;
+}
+#top #mvSlider .mvWrapper .mvInner .mvPicture {
+    min-width: auto !important;
+}
+@media screen and (min-width: 768px) {
+    #top .latestJob {
+        margin-top: -65px !important;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+#top #topMvSlider .flex-slider {
+    padding-left: 260px;
+    padding-right: 30px;
+    background-image: url(../images/contentBox/slider_bg_pc.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    background-position-y: 1px;
+    /* padding-bottom: 348px; */
+}
+.swiper-container-fade .swiper-slide {
+    width: 100% !important;
+}
+
+#top #topMvSlider .vertical-text-01 {
+    left: 7%;
+    top: 18%;
+    font-size: 30px;
+    color: #1B5EC7;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -3px;
+}
+#top #topMvSlider .vertical-text-02 {
+    left: 12%;
+    top: 9%;
+    font-size: 30px;
+    color: #1B5EC7;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -3px;
+}
+}
