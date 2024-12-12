@@ -4,9 +4,9 @@ header
 body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆解除のJS用 */
   //overflow: hidden;
 }
-body {
-  background: #E2ECFB;
-}
+// body {
+//   background: #E2ECFB;
+// }
 #headerMenu {
   &.headerMenu {
     position: relative;
