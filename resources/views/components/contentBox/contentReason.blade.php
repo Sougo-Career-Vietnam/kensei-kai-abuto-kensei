@@ -57,7 +57,6 @@
           <div class="slider__button-prev">
               <img class="arrow-prev" src="{{asset('images/top/arrow-prev.png')}}">
           </div>
-          <div class="slider__pagination"></div>
           <div class="slider__button-next">
               <img class="arrow-next" src="{{asset('images/top/arrow-next.png')}}">
           </div>
@@ -91,15 +90,7 @@
           autoResize: false,
           autoHeight: false,
           loopAdditionalSlides: 2,
-          // pagination: {
-          //     el: '.slider__pagination',
-          //     clickable: true,
-          // },
-          // navigation: {
-          //     nextEl: '.slider__button-next',
-          //     prevEl: '.slider__button-prev',
-          // },
-  
+
           breakpoints: {
               767: {
                   speed: 1500,

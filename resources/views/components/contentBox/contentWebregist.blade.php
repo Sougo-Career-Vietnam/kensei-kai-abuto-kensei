@@ -1,4 +1,4 @@
-<div id="message">
+<div id="webregist">
   <div class="commonInner js-fadein">
     <h2 class="contentHeading">
       <span class="en">WORKPLACE TOUR</span>
