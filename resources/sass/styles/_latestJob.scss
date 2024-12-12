@@ -18,7 +18,8 @@
     max-width: 100% !important;
     background: none;
     box-shadow: none;
-
+    margin-top: -70px !important;
+    width: 100% !important;
   }
 }
 
@@ -30,7 +31,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 61px 0px 97px !important;
+  padding: 0px 61px 0px 108px !important;
   @include xs {
     position: relative;
     width: 100%;
