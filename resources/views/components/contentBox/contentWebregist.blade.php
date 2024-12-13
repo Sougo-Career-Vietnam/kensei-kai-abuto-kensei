@@ -1,5 +1,17 @@
 <section id="webregist">
   <div class="inner-webregist js-fadein">
+
+   <div class="bg-home">
+    <picture class="image">
+      <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_bg_sp.png')}}">
+      <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_bg_pc.png')}}">
+      <img class="sizes" src="{{asset('images/top/tour_bg_pc.png')}}" alt="">
+     </picture>
+   </div>
+
+
+
+
     <h2 class="title-webregist">
       <span class="text-image">
         <picture class="image">
@@ -59,7 +71,7 @@
 
 
     <div class="box-link-top">
-      <a  class="a-link webregist" href="">もっと見る</a>
+      <a  class="a-link webregist" href="">詳しくはこちら</a>
      </div>
 
      <div class="icon-left">

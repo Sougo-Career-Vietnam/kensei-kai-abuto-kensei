@@ -15,7 +15,9 @@
     gap: 25px; 
     z-index: 10;
 }
-
+#top #topLayout #topNav {
+  background: #E2ECFB;
+}
 .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
@@ -278,6 +280,7 @@
     width: 14px;
     bottom: 13px;
     left: calc(50% - 7px);
+    height: 14px;
 }
 
 #top #reason  .note-reason {
@@ -372,12 +375,12 @@
   margin-top: 0px;
 }
 #reason .slider__controls {
-  display: none;
+    display: none;
     margin-top: unset;
     padding-left: unset;
-    position: absolute;
-    bottom: 58px;
-    left: calc(50% - 95px)
+    position: relative;
+    /* bottom: 58px;
+    left: calc(50% - 95px) */
 }
 #reason .item-sdider {
   /* margin-right: 20px; */
@@ -460,6 +463,8 @@
   font-size: 26px;
   line-height: 36px;
   margin-bottom: 20px;
+  z-index: 999;
+  position: relative;
 }
 #reason .dl-slider .dd-slider {
   font-size: 16px;
@@ -555,7 +560,17 @@
         bottom: 60px;
     }
     #reason .slider__controls { 
-       display: block;
+         display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+    }
+    #reason .slider__controls img {
+      width: 55px !important;
+    }
+    #top .commonInner-slider {
+      width: 100%;
     }
 }
 
@@ -563,7 +578,7 @@
  /* -----#workplace---- */
 
 #top #workplace {
-  padding-bottom: 70px;
+  padding-bottom: 61px;
 }
 
 #workplace .img-mobi {
@@ -647,18 +662,38 @@
     max-width: 1050px;
     margin: auto;
     height: 670px;
-    background-image: url(../images/top/tour_bg_pc.png);
+    /* background-image: url(../images/top/tour_bg_pc.png); */
     background-position: center;
     background-size: cover;
-    padding: 100px 0px 20px;
+    padding: 120px 0px 20px;
     position: relative;
+    z-index: 99;
 }
+#webregist  .inner-webregist .bg-home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+
+
+
+#webregist .inner-webregist  .text-image {
+    margin-bottom: -25px;
+    display: block;
+}
+
 
 #webregist  .inner-webregist .ja-webregist {
   font-size: 60px;
   font-weight: 700;
   margin-top: 5px;
   color: #EB5050;
+  letter-spacing: 10px;
 }
 
 
@@ -671,7 +706,7 @@
   font-size: 20px; /* Điều chỉnh kích thước chữ theo ý muốn */
   max-width: 800px;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #webregist .line-text::before,
@@ -682,11 +717,11 @@
 }
 
 #webregist .line-text::before {
-  margin-right: 10px; /* Khoảng cách với chữ */
+  margin-right: 13px; /* Khoảng cách với chữ */
 }
 
 #webregist  .line-text::after {
-  margin-left: 10px; /* Khoảng cách với chữ */
+  margin-left: 13px; /* Khoảng cách với chữ */
 }
 
 
@@ -694,7 +729,7 @@
 
 #webregist  .inner-webregist .title-webregist {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 
 #top #template01 #webregist  .inner-webregist .title-webregist img {
@@ -779,7 +814,7 @@
 
   #webregist .slider {
     max-width: 100%; 
-    padding-bottom: 60px;
+    padding-bottom: 38px;
     overflow: hidden;
   
   }
@@ -829,16 +864,18 @@
   #top .box-link-top .a-link.webregist {
     width: 360px;
     background: #F39393;
-    padding-left: 30px;
+    padding-left: 40px;
   }
   #top .box-link-top .a-link.webregist:hover {
     background: #EB5050;
   }
   #top .box-link-top .a-link.webregist::after {
     background-image: url(../images/top/icon_row_link_pig.svg);
+    right: 47px;
   }
   #top .box-link-top .a-link.webregist::before {
   background: #FCE5E5;
+  right: 40px;
   }
 
   #top .box-link-top .a-link.webregist:hover::before {
@@ -847,27 +884,79 @@
 
   #webregist .inner-webregist .icon-left {
     position: absolute;
-    left: -50px;
-    bottom: 0px;
+    left: -75px;
+    bottom: 25px;
   }
 
   #webregist .inner-webregist .icon-right {
     position: absolute;
-    right: -30px;
-    bottom: 0px;
+    right: -72px;
+    bottom: 25px;
   }
 
-
+  #top .box-link-top .a-link.webregist:hover::after {
+    background-image: url(../images/top/icon_row_link_hover.svg);
+}
 
 
 
 @media (max-width: 768px) {
-    #top .block-content .img-icon {
-        position: absolute;
-        right: 12px;
-        bottom: 60px;
-    }
-    #webregist .slider__controls { 
-       display: block;
-    }
+  #top .block-content .img-icon {
+      right: 12px;
+      bottom: 60px;
+  }
+  #webregist .slider__controls { 
+      display: block;
+  }
+  #webregist .inner-webregist .icon-left {
+    left: 5px;
+    bottom: 5px;
+  }
+
+  #webregist .inner-webregist .icon-right {
+      right: 5px;
+      bottom: 5px;
+  }
+  #webregist .inner-webregist .title-webregist {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #webregist  .inner-webregist {
+    max-width: 375px;
+    margin: auto;
+    height: auto;
+    /* background-image: url(../images/top/tour_bg_sp.png); */
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0px 20px;
+    position: relative;
+  }
+  #webregist .box-slider {
+    max-width: 160px;
+    margin: auto;
+   }
+   #webregist .inner-webregist .ja-webregist {
+    font-size: 27px;
+    margin-top: 5px;
+    letter-spacing: 4px;
+  }
+  #top #template01 #webregist .inner-webregist .title-webregist img {
+    width: 104px;
+  }
+  #webregist .inner-webregist .text-image {
+    margin-bottom: -40px;
+    display: block;
+}
+  #webregist .line-text {
+    font-size: 13px;
+    margin-bottom: 20px;
+    max-width: 260px;
+}
+#top .box-link-top .a-link.webregist {
+    width: 200px;
+    padding-left: 20px;
+    height: 45px;
+    line-height: 45px;
+}
+
 }
