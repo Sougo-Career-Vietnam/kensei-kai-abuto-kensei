@@ -1,10 +1,18 @@
-<div id="webregist">
-  <div class="commonInner js-fadein">
-    <h2 class="contentHeading">
-      <span class="en">WORKPLACE TOUR</span>
-      <span class="ja">職場見学会</span>
+<section id="webregist">
+  <div class="inner-webregist js-fadein">
+    <h2 class="title-webregist">
+      <span class="text-image">
+        <picture class="image">
+          <source media="(max-width: 767px)" srcset="{{asset('images/top/text_tour_sp.png')}}">
+          <source media="(min-width: 768px)" srcset="{{asset('images/top/text_tour_pc.png')}}">
+          <img class="sizes" src="{{asset('images/top/text_tour_pc.png')}}" alt="">
+         </picture>
+      </span><br>
+      <span class="ja-webregist">職場見学会</span>
     </h2>
-
+    <h3 class="line-text">
+      <span>まずは職場を実際に見てみませんか？</span>
+    </h3>
 
     <div class="box-slider">
       <div class="slider mySwipertour">
@@ -15,9 +23,7 @@
                     <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_slider_01_pc.png')}}">
                     <img class="sizes" src="{{asset('images/top/tour_slider_01_pc.png')}}" alt="">
                   </picture>
-                  <dl class="dl-slider">
-                    <dt class="dt-slider">ダイハツの想い編</dt>
-                  </dl>   
+         
               </li>
 
               <li class="item-sdider swiper-slide">
@@ -26,9 +32,7 @@
                     <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_slider_02_pc.png')}}">
                     <img class="sizes" src="{{asset('images/top/tour_slider_02_pc.png')}}" alt="">
                 </picture>
-                <dl class="dl-slider">
-                  <dt class="dt-slider">ダイハツの想い編</dt>
-                </dl> 
+        
               </li>
 
               <li class="item-sdider swiper-slide">
@@ -37,9 +41,7 @@
                     <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_slider_03_pc.png')}}">
                     <img class="sizes" src="{{asset('images/top/tour_slider_03_pc.png')}}" alt="">
                 </picture>
-                <dl class="dl-slider">
-                  <dt class="dt-slider">ダイハツの想い編</dt>
-                </dl> 
+  
               </li>
 
 
@@ -56,13 +58,27 @@
     </div>
 
 
+    <div class="box-link-top">
+      <a  class="a-link webregist" href="">もっと見る</a>
+     </div>
 
-
-
-
+     <div class="icon-left">
+      <picture class="image">
+        <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_icon_01_sp.png')}}">
+        <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_icon_01_pc.png')}}">
+        <img class="sizes" src="{{asset('images/top/tour_icon_01_pc.png')}}" alt="">
+       </picture>
+     </div>
+     <div class="icon-right">
+      <picture class="image">
+        <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_icon_02_sp.png')}}">
+        <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_icon_02_pc.png')}}">
+        <img class="sizes" src="{{asset('images/top/tour_icon_02_pc.png')}}" alt="">
+       </picture>
+     </div>
 
 </div>
-</div>
+</section>
 
 
 
@@ -74,7 +90,7 @@ $(function() {
       speed: 1500000000000000000000000000000000000000000,
       autoplay: true,
       slidesPerView: 3,
-      spaceBetween: 100,
+      spaceBetween: 10,
       centeredSlides: false,
       simulateTouch: false,
       autoResize: false,
