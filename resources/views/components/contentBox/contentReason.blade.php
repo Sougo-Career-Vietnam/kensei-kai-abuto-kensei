@@ -1,5 +1,5 @@
 <section id="reason">
-  <div class="commonInner js-fadein">
+  <div class="commonInner-slider js-fadein">
     <h2 class="contentHeading">
       <span class="ja">3つの働きやすい理由</span>
     </h2>
@@ -16,39 +16,64 @@
       <div class="slider mySwiper">
           <ul class="list-slider swiper-wrapper">
               <li class="item-sdider swiper-slide">
+                <p class="number-reason">01</p>
                   <picture class="image">
                     <source media="(max-width: 767px)" srcset="{{asset('images/top/reason_top_01_sp.png')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/top/reason_top_01_pc.png')}}">
                     <img class="sizes" src="{{asset('images/top/reason_top_01_pc.png')}}" alt="">
                   </picture>
                   <dl class="dl-slider">
-                    <dt class="dt-slider">ダイハツの想い編</dt>
+                    <dt class="dt-slider">介護ロボット<br>ICT導入</dt>
+                    <dd class="dd-slider">最新技術で効率化や負担軽減し、<br>
+                      働きやすさをサポートします。</dd>
+
+                      <dd class="dd-icon">
+                        <picture class="image">
+                          <source  srcset="{{asset('images/top/slider_icon_01.svg')}}">
+                          <img class="sizes" src="{{asset('images/top/slider_icon_01.svg')}}" alt="">
+                        </picture>
+                      </dd>
                   </dl>   
               </li>
+              <li class="item-sdider swiper-slide two">
+                <p class="number-reason">02</p>
+                  <picture class="image">
+                    <source media="(max-width: 767px)" srcset="{{asset('images/top/reason_top_02_sp.png')}}">
+                    <source media="(min-width: 768px)" srcset="{{asset('images/top/reason_top_02_pc.png')}}">
+                    <img class="sizes" src="{{asset('images/top/reason_top_02_pc.png')}}" alt="">
+                  </picture>
+                  <dl class="dl-slider">
+                    <dt class="dt-slider">未経験の方への<br>フォロー体制</dt>
+                    <dd class="dd-slider">研修や勉強会で基礎から学び、<br>
+                      安心して働くことができます。</dd>
 
-              <li class="item-sdider swiper-slide">
-                <picture class="image">
-                  <source media="(max-width: 767px)" srcset="{{asset('images/top/reason_top_02_sp.png')}}">
-                  <source media="(min-width: 768px)" srcset="{{asset('images/top/reason_top_02_pc.png')}}">
-                  <img class="sizes" src="{{asset('images/top/reason_top_02_pc.png')}}" alt="">
-                </picture>
-                <dl class="dl-slider">
-                  <dt class="dt-slider">ダイハツの想い編</dt>
-                </dl> 
+                      <dd class="dd-icon">
+                        <picture class="image">
+                          <source  srcset="{{asset('images/top/slider_icon_02.svg')}}">
+                          <img class="sizes" src="{{asset('images/top/slider_icon_02.svg')}}" alt="">
+                        </picture>
+                      </dd>
+                  </dl>   
               </li>
-
-              <li class="item-sdider swiper-slide">
-                <picture class="image">
-                  <source media="(max-width: 767px)" srcset="{{asset('images/top/reason_top_03_sp.png')}}">
-                  <source media="(min-width: 768px)" srcset="{{asset('images/top/reason_top_03_pc.png')}}">
-                  <img class="sizes" src="{{asset('images/top/reason_top_03_pc.png')}}" alt="">
-                </picture>
-                <dl class="dl-slider">
-                  <dt class="dt-slider">ダイハツの想い編</dt>
-                </dl> 
+              <li class="item-sdider swiper-slide three">
+                <p class="number-reason">03</p>
+                  <picture class="image">
+                    <source media="(max-width: 767px)" srcset="{{asset('images/top/reason_top_03_sp.png')}}">
+                    <source media="(min-width: 768px)" srcset="{{asset('images/top/reason_top_03_pc.png')}}">
+                    <img class="sizes" src="{{asset('images/top/reason_top_03_pc.png')}}" alt="">
+                  </picture>
+                  <dl class="dl-slider">
+                    <dt class="dt-slider">給与と手当の<br>手厚い還元</dt>
+                    <dd class="dd-slider">安定した収入と充実の手当で長く働ける<br>
+                      環境づくりに努めています。</dd>
+                      <dd class="dd-icon">
+                        <picture class="image">
+                          <source  srcset="{{asset('images/top/slider_icon_03.svg')}}">
+                          <img class="sizes" src="{{asset('images/top/slider_icon_03.svg')}}" alt="">
+                        </picture>
+                      </dd>
+                  </dl>   
               </li>
-
-
           </ul>
 
 
@@ -63,8 +88,10 @@
   
       </div>
 
-
-  </div>
+    </div>
+     <div class="box-link-top">
+      <a  class="a-link" href="">もっと見る</a>
+     </div>
 
 
 
