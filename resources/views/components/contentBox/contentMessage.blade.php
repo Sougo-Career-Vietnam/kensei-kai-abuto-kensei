@@ -6,12 +6,12 @@
     </h2>
     <div class="block-content">
       <p class="content-message">
-        社会福祉法人健生会は、<br class="pc-br">
-        特別養護老人ホーム「あぶと健生苑」をはじめ、<br class="pc-br">
-        あぶとの家、ざおう健生苑東館、ざおう健生苑本館の<br class="pc-br">
-        4つの介護事業所を展開し、地域に根ざした介護を提供しています。<br class="pc-br">
-        「健やかに生きる悦びの館」「創造」を理念とし、<br class="pc-br">
-        温かな環境で安心と尊厳を尊重したケアに努めています。
+        社会福祉法人健生会は、<br>
+        特別養護老人ホーム「あぶと健生苑」を<br class="sp-br">はじめ、<br class="pc-br">
+        あぶとの家、ざおう健生苑東館、<br class="sp-br">ざおう健生苑本館の<br>
+        4つの介護事業所を展開し、<br class="sp-br">地域に根ざした介護を提供しています。<br>
+        「健やかに生きる悦びの館」<br class="sp-br">「創造」を理念とし、<br>
+        温かな環境で安心と尊厳を<br class="sp-br">尊重したケアに努めています。
       </p>
       <div class="img-icon">
         <picture class="image">
@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <div class="box-img">
+    <div class="box-img message-destop">
       <picture class="image">
         <source media="(max-width: 767px)" srcset="{{asset('images/top/meassge_pic_sp.png')}} 2x">
         <source media="(min-width: 768px)" srcset="{{asset('images/top/meassge_pic_pc.png')}} 2x">
@@ -30,7 +30,14 @@
       </picture>
     </div>
 
-
-
   </div>
 </section>
+
+<div class="box-img message-mobi">
+  <picture class="image">
+    <source media="(max-width: 767px)" srcset="{{asset('images/top/meassge_pic_sp.png')}} 2x">
+    <source media="(min-width: 768px)" srcset="{{asset('images/top/meassge_pic_pc.png')}} 2x">
+    <img class="sizes" src="{{asset('images/top/meassge_pic_pc.png')}}" alt="">
+  </picture>
+</div>
+
