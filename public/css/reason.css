@@ -1,3 +1,338 @@
 h1 {
     display: none;
 }
+
+#page-reason .commonInner-slider {
+    width: calc(100% - 24px);
+    max-width: 1160px;
+    margin: auto;
+}
+
+#page-reason #reason .title-reason {
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(90deg, rgba(226, 236, 251, 1) 0%, rgba(247, 248, 252, 1) 100%);
+    font-size: 40px;
+    color: #1B5EC7;
+
+}
+#page-reason #reason .title-reason::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/top/icon_title.svg);
+    width: 14px;
+    bottom: 45px;
+    left: calc(50% - 7px);
+    height: 14px;
+}
+
+
+#page-reason {
+    background: linear-gradient(90deg, rgba(226,236,251,1) 0%, rgba(247,248,252,1) 100%);
+}
+
+
+
+#page-reason .box-slider .item-sdider {
+ transition: 0.5s;
+}
+#page-reason .box-slider .item-sdider::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #F39393;
+    left: calc(50% - 15px);
+    bottom: 0px;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+#page-reason .box-slider .item-sdider::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/reason/reason_icon.svg);
+    width: 16px;
+    height: 14px;
+    left: calc(50% - 8px);
+    bottom: 10px;
+    transition: 0.5s;
+    z-index: 99;
+}
+
+
+
+
+#page-reason .box-slider .item-sdider.two::after {
+    background: #E8D37B;
+}
+#page-reason .box-slider .item-sdider.three::after {
+    background: #74DB9D;
+}
+
+
+#page-reason .box-slider .item-sdider:hover::after {
+    bottom: -15px;
+}
+
+#page-reason .box-slider .item-sdider:hover::before {
+    bottom: -12px;
+}
+
+#page-reason .block-reason .inner-reason {
+    max-width: 1240px;
+    padding: 20px;
+    margin: auto;
+}
+#page-reason .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-reason #reason .item-sdider .dl-slider {
+    padding: 65px 10px 25px 10px !important;
+}
+
+/* ----title-block ------*/
+
+
+
+
+
+
+
+
+
+
+/* ----list-reason ------*/
+
+
+#page-reason .list-reason {
+    margin-bottom: 60px;
+}
+#page-reason .item-reason {
+    width: calc(100%/3 - 60px);
+}
+
+#page-reason .dl-list {
+    margin-top: 21px;
+}
+
+
+
+#page-reason .dl-list .dt-list {
+    font-size: 20px;
+    color: #D9534F;
+    margin-bottom: 15px;
+}
+
+#page-reason .dl-list .dd-list {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+#page-reason #reason .slider {
+    margin-bottom: 70px;
+}
+
+#page-reason .title-block {
+    margin-bottom: 200px;
+    align-items: center;
+    position: relative
+}
+#page-reason .text-dt {
+    width: calc(100% - 120px);
+    color: #EB5050;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+}
+#page-reason .dt-number {
+    align-items: center;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+#page-reason .dd-number {
+  font-size: 18px;
+  line-height: 32px;
+}
+#page-reason .dl-number {
+    width: 56%;
+    padding-right: 30px;
+}
+#page-reason .title-block .img-box {
+    width: 43%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+
+#page-reason .title-block .number {
+    width: 100px;
+    height: 100px;
+    background: #F39393;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+#page-reason .title-block .number {
+    font-family: dinosaur, sans-serif;
+    color: white;
+    font-weight: 700;
+} 
+#page-reason .title-block .number .en {
+    font-size: 18px;
+
+}
+
+#page-reason .title-block .number .text-number {
+    font-size: 30px;
+
+}
+
+
+
+
+/* ----box-meassge ------*/
+#page-reason .box-meassge {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 55px 35px 70px 260px;
+    border-radius: 20px;
+    
+}
+  
+  #page-reason  .box-meassge h2 {
+    font-size: 20px;
+    color: #D9534F;
+    margin-bottom: 15px;
+  }
+  
+  #page-reason  .box-meassge .badge {
+    background-color: #D9534F;
+    color: #FFFFFF;
+    padding: 0px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  #page-reason  .box-meassge .text {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  #page-reason .image-wrapper {
+    position: absolute;
+    left: 60px;
+    width: 136px;
+    height: auto;
+    top: 28px;
+  }
+
+  #page-reason .text-en {
+    position: absolute;
+    font-size: 40px;
+    color: #FCE5E5;
+    font-weight: 700;
+    right: 37px;
+    bottom: -5px;
+    font-family: dinosaur, sans-serif;
+  }
+
+
+
+@media (max-width: 768px) {
+
+    #reason .slider__controls {
+        display: flex;
+        top: 28%;
+    }
+    .image-float {
+        float: right;
+    }
+
+
+
+
+/* ----box-meassge ------*/
+    #page-reason .block-reason .inner-reason {
+        max-width: 1240px;
+        padding: 12px;
+        margin: auto;
+    }
+    #page-reason .box-meassge {
+        max-width: 351px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+        border-radius: 30px;
+        position: relative;
+        padding: 20px 10px 20px 10px;
+    }
+  
+  #page-reason   h2 {
+    font-size: 15px;
+    color: #D9534F;
+    margin-bottom: 10px;
+  }
+  
+  #page-reason  .box-meassge .badge {
+    background-color: #D9534F;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  #page-reason  .box-meassge .text {
+    font-size: 15px;
+    line-height: 27px;
+  }
+  #page-reason .image-wrapper {
+    position: absolute;
+    left: unset;
+    width:68px;
+    height: auto;
+    top:unset;
+    bottom: 20px;
+    right: 7px;
+  }
+  #page-reason .text-en {
+    font-size: 20px;
+    right: 80px;
+    bottom: 15px;
+  }
+
+
+
+}
+
+@media (max-width: 374px) {
+    #page-reason .box-meassge  {
+        max-width: 296px;
+    }
+    #page-reason .box-meassge .text {
+        font-size: 12px;
+        line-height: 24px;
+      
+    }
+    #page-reason .box-meassge h2 {
+        font-size: 13px;
+        color: #D9534F;
+        margin-bottom: 10px;
+    }
+}
+

@@ -61,9 +61,7 @@
 
       </div>
       <div class="slider__controls flex">
-    
-          <div class="slider__pagination"></div>
-
+          <div class="slider-pagination"></div>
       </div>
 
 
@@ -119,7 +117,7 @@ $(function() {
               simulateTouch: true,
  
                  pagination: {
-                  el: '.slider__pagination',
+                  el: '.slider-pagination',
                   clickable: true,
               },
           }

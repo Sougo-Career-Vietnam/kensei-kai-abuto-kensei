@@ -90,11 +90,6 @@
       <a  class="a-link" href="">もっと見る</a>
      </div>
 
-
-
-
-
-
   </div>
 </section>
 
@@ -117,7 +112,7 @@
 
           breakpoints: {
               767: {
-                  speed: 1500000000000000000000000000000000000000000,
+                  speed: 1500,
                   slidesPerView: 1.5,
                   spaceBetween: 40,
                   centeredSlides: true,

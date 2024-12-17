@@ -36,8 +36,12 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
         <div id="pageTop" class="pageTop">
             <a href="#" class="pageTopAnchor">
 {{--                <i class="fas fa-arrow-up"></i>--}}
-                <i class="fas fa-chevron-up"></i>
-                <span>TOP</span>
+                {{-- <i class="fas fa-chevron-up"></i> --}}
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12">
+                    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10,8.383,17.566.441a1.376,1.376,0,0,1,2.019,0,1.566,1.566,0,0,1,0,2.125l-8.569,9a1.379,1.379,0,0,1-1.971.044L.417,2.571A1.539,1.539,0,0,1,0,1.509,1.539,1.539,0,0,1,.417.447a1.376,1.376,0,0,1,2.019,0Z" transform="translate(20 12) rotate(180)" fill="#6d9eeb"/>
+                  </svg>
+                <span>PAGE<br>
+                    TOP</span>
             </a>
         </div><!-- #pageTop -->
         <div id="searchJobsBtn" class="SPdisp">

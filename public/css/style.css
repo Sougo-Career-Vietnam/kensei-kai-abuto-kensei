@@ -5,6 +5,13 @@
 
 /* ------------TOP----------------*/
 /* Căn chỉnh dots theo chiều dọc */
+
+.notosanjk {
+  font-family: "noto-sans-cjk-jp", sans-serif;
+  font-style: normal;
+}
+
+
 .swiper-pagination {
     position: absolute;
     top:80.2%;
@@ -918,7 +925,7 @@
   }
 
 
- #webregist .slider__pagination {
+ #webregist .slider-pagination {
     width: 190px;
     display: flex;
     justify-content: center;
@@ -1138,7 +1145,8 @@
       line-height: 45px;
   }
   #top .box-link-top .a-link.webregist::after {
-    right: 22px;
+      right: 22px;
+      top: 15px;
    }
    #top .box-link-top .a-link.webregist::before {
     right: 17px;
