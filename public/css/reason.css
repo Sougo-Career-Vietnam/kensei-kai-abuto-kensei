@@ -1,13 +1,8 @@
-h1 {
-    display: none;
-}
-
 #page-reason .commonInner-slider {
     width: calc(100% - 24px);
     max-width: 1160px;
     margin: auto;
 }
-
 #page-reason #reason .title-reason {
     padding-top: 100px;
     text-align: center;
@@ -18,7 +13,6 @@ h1 {
     background: linear-gradient(90deg, rgba(226, 236, 251, 1) 0%, rgba(247, 248, 252, 1) 100%);
     font-size: 40px;
     color: #1B5EC7;
-
 }
 #page-reason #reason .title-reason::after {
     position: absolute;
@@ -29,13 +23,9 @@ h1 {
     left: calc(50% - 7px);
     height: 14px;
 }
-
-
 #page-reason {
     background: linear-gradient(90deg, rgba(226,236,251,1) 0%, rgba(247,248,252,1) 100%);
 }
-
-
 
 #page-reason .box-slider .item-sdider {
  transition: 0.5s;
@@ -62,9 +52,6 @@ h1 {
     transition: 0.5s;
     z-index: 99;
 }
-
-
-
 
 #page-reason .box-slider .item-sdider.two::after {
     background: #E8D37B;
@@ -96,15 +83,6 @@ h1 {
     padding: 65px 10px 25px 10px !important;
 }
 
-/* ----title-block ------*/
-
-
-
-
-
-
-
-
 
 
 /* ----list-reason ------*/
@@ -123,7 +101,7 @@ h1 {
 
 
 
-#page-reason .dl-list .dt-list {
+#page-reason .block-reason .dl-list .dt-list {
     font-size: 20px;
     color: #D9534F;
     margin-bottom: 15px;
@@ -144,7 +122,7 @@ h1 {
     align-items: center;
     position: relative
 }
-#page-reason .text-dt {
+#page-reason .block-reason .text-dt {
     width: calc(100% - 120px);
     color: #EB5050;
     font-size: 26px;
@@ -170,10 +148,7 @@ h1 {
     right: 0px;
     top: 0px;
 }
-
-
-
-#page-reason .title-block .number {
+#page-reason .block-reason .title-block .number {
     width: 100px;
     height: 100px;
     background: #F39393;
@@ -183,7 +158,7 @@ h1 {
     flex-direction: column;
     text-align: center;
 }
-#page-reason .title-block .number {
+#page-reason .block-reason .title-block .number {
     font-family: dinosaur, sans-serif;
     color: white;
     font-weight: 700;
@@ -197,10 +172,6 @@ h1 {
     font-size: 30px;
 
 }
-
-
-
-
 /* ----box-meassge ------*/
 #page-reason .box-meassge {
     max-width: 1200px;
@@ -215,33 +186,33 @@ h1 {
     
 }
   
-  #page-reason  .box-meassge h2 {
+#page-reason  .block-reason .box-meassge h2 {
     font-size: 20px;
     color: #D9534F;
     margin-bottom: 15px;
-  }
-  
-  #page-reason  .box-meassge .badge {
+}
+
+#page-reason  .block-reason .box-meassge .badge {
     background-color: #D9534F;
     color: #FFFFFF;
     padding: 0px 10px;
     border-radius: 4px;
     font-size: 20px;
     margin-right: 15px;
-  }
-  #page-reason  .box-meassge .text {
+}
+#page-reason  .box-meassge .text {
     font-size: 18px;
     line-height: 32px;
-  }
-  #page-reason .image-wrapper {
+}
+#page-reason .image-wrapper {
     position: absolute;
     left: 60px;
     width: 136px;
     height: auto;
     top: 28px;
-  }
+}
 
-  #page-reason .text-en {
+#page-reason .block-reason .text-en {
     position: absolute;
     font-size: 40px;
     color: #FCE5E5;
@@ -249,12 +220,148 @@ h1 {
     right: 37px;
     bottom: -5px;
     font-family: dinosaur, sans-serif;
+}
+
+
+
+#page-reason .block-reason:nth-child(2) .title-block .number {
+    background: #E8D37B;
+}
+
+#page-reason .block-reason:nth-child(2) .text-dt {
+    color: #E4A12F;
+}
+
+
+#page-reason .block-reason:nth-child(2) .dl-list .dt-list {
+    color: #E4A12F;
+}
+
+#page-reason .block-reason:nth-child(2)  .box-meassge h2 {
+    color: #E4A12F;
+}
+
+#page-reason .block-reason:nth-child(2) .box-meassge .badge {
+    background-color: #E4A12F;
+}
+
+#page-reason .block-reason:nth-child(3) .title-block .number {
+    background: #74DB9D;
+}
+
+#page-reason .block-reason:nth-child(3) .text-dt {
+    color: #44B772;
+}
+
+
+
+#page-reason .block-reason:nth-child(3)  .box-meassge h2 {
+    color: #44B772
+}
+
+#page-reason .block-reason:nth-child(3) .box-meassge .badge {
+    background-color: #44B772
+}
+
+#page-reason .block-reason:nth-child(3) .text-en {
+    color: #E5FCE5;
+}
+
+#page-reason .block-reason:nth-child(2) .text-en {
+    color: #FCF1E5;
+}
+
+
+#page-reason .box-galary {
+    background: #B9EDCE;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+#page-reason .box-galary .title-galary {
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    background: white;
+    border-radius: 30px;
+    text-align: center;
+    color: #44B772;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+
+#page-reason .box-galary .item-galary {
+   width: calc(50% - 10px);  
+}
+
+#page-reason .box-galary .info-box {
+    background-color: #44B772; /* Fill màu xanh đậm */
+    border: 4px dashed #B9EDCE; /* Border với màu xanh nhạt */
+    border-radius: 10px; /* Bo tròn góc */
+    padding: 10px 15px; /* Khoảng cách bên trong */
+    display: inline-block; /* Đảm bảo kích thước vừa nội dung */
+    width: 100%;
+    height: 100px;
+  }
+
+
+  #page-reason .box-galary .info-box .note {
+    text-align: right;
+  }
+  #page-reason .box-galary .top-title {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    align-items: baseline;
+  }
+
+  #page-reason .box-galary .total-big {
+    font-size: 30px;
   }
 
 
 
-@media (max-width: 768px) {
 
+  
+  /* Styling specific text */
+  #page-reason .box-galary  .info-box p {
+    margin: 0; /* Remove default paragraph margin */
+    font-size: 20px;
+  }
+  #page-reason .box-galary .age {
+    margin-right: 10px;
+  }
+  #page-reason .box-galary  .info-box .total {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  #page-reason .box-galary  .info-box .note {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #e8f5e9; /* Lightened text for note */
+  }
+
+  
+  #page-reason .box-galary .left ,  #page-reason .box-galary .right{
+    width: calc(50% - 5px);  
+  }
+
+  #page-reason .box-galary .text-galary {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+
+
+
+
+@media (max-width: 768px) {
     #reason .slider__controls {
         display: flex;
         top: 28%;
@@ -262,11 +369,7 @@ h1 {
     .image-float {
         float: right;
     }
-
-
-
-
-/* ----box-meassge ------*/
+   /* ----box-meassge ------*/
     #page-reason .block-reason .inner-reason {
         max-width: 1240px;
         padding: 12px;
@@ -284,40 +387,60 @@ h1 {
         padding: 20px 10px 20px 10px;
     }
   
-  #page-reason   h2 {
-    font-size: 15px;
-    color: #D9534F;
-    margin-bottom: 10px;
-  }
+    #page-reason   h2 {
+        font-size: 15px;
+        color: #D9534F;
+        margin-bottom: 10px;
+    }
   
-  #page-reason  .box-meassge .badge {
-    background-color: #D9534F;
-    color: #FFFFFF;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 14px;
-  }
-  #page-reason  .box-meassge .text {
-    font-size: 15px;
-    line-height: 27px;
-  }
-  #page-reason .image-wrapper {
-    position: absolute;
-    left: unset;
-    width:68px;
-    height: auto;
-    top:unset;
-    bottom: 20px;
-    right: 7px;
-  }
-  #page-reason .text-en {
-    font-size: 20px;
-    right: 80px;
-    bottom: 15px;
-  }
+    #page-reason  .box-meassge .badge {
+        background-color: #D9534F;
+        color: #FFFFFF;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    #page-reason  .box-meassge .text {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    #page-reason .image-wrapper {
+        position: absolute;
+        left: unset;
+        width:68px;
+        height: auto;
+        top:unset;
+        bottom: 20px;
+        right: 7px;
+    }
+    #page-reason .text-en {
+        font-size: 20px;
+        right: 80px;
+        bottom: 15px;
+    }
 
+    #page-reason .box-galary .item-galary {
+        width: 100%;
+    }
 
-
+    #page-reason .box-galary .list-galary,#page-reason .box-galary .top-title {
+        flex-direction: column;
+    }
+    #page-reason .box-galary .info-box p {
+        margin: 0;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    #page-reason .box-galary .info-box {
+        height: auto;
+    }
+    #page-reason .box-galary .info-box .note {
+        font-size: 12px;
+        margin-top: 5px;
+        color: #e8f5e9;
+        text-align: center;
+    }
 }
 
 @media (max-width: 374px) {
@@ -335,4 +458,17 @@ h1 {
         margin-bottom: 10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
