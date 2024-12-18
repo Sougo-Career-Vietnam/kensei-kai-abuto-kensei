@@ -175,7 +175,6 @@
                        </ul>
   
                         <div class="box-meassge">
-                            <!-- Hình ảnh cố định bên phải -->
                             <div class="image-wrapper">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_massge_icon_01_sp.png')}}">
@@ -183,7 +182,6 @@
                                     <img class="sizes image-float" src="{{asset('images/reason/reason_massge_icon_01_pc.png')}}" alt="">
                                   </picture>
                             </div>
-                            <!-- Đoạn văn bản -->
                             <div class="text-content">
                               <h2><span class="badge">看護師</span> 特別養護老人ホーム あぶと健生苑</h2>
                               <p class="text">
@@ -268,7 +266,6 @@
                        </ul>
   
                         <div class="box-meassge">
-                            <!-- Hình ảnh cố định bên phải -->
                             <div class="image-wrapper">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_massge_icon_02_sp.png')}}">
@@ -276,7 +273,6 @@
                                     <img class="sizes image-float" src="{{asset('images/reason/reason_massge_icon_02_pc.png')}}" alt="">
                                   </picture>
                             </div>
-                            <!-- Đoạn văn bản -->
                             <div class="text-content">
                               <h2><span class="badge">介護職員</span>特別養護老人ホームあぶと健生苑</h2>
                               <p class="text">
