@@ -1,4 +1,4 @@
-
+/* General Styling */
 #workplace .slider__controls {
     position: absolute;
     top: 50%;
@@ -11,148 +11,107 @@
     left: -100px;
 }
 
-   .gallery, .gallery02{
+.gallery {
     width: 100%;
     max-width: 960px;
-    margin: 0px auto;
-    opacity: 0px 40px;
+    margin: 0 auto;
     position: relative;
-    }
+    opacity: 1; /* Adjusted to correct syntax */
+    margin-bottom: 140px;
+}
 
-    .gallery-slider {
+/* Gallery Sliders */
+.gallery-slider,
+.gallery-slider02,
+.gallery-slider03,
+.gallery-slider04 {
     width: 100%;
     height: auto;
     margin: 0 0 10px 0;
-    }
+}
 
-    .gallery-slider .swiper-slide {
+.gallery-slider .swiper-slide,
+.gallery-slider02 .swiper-slide,
+.gallery-slider03 .swiper-slide,
+.gallery-slider04 .swiper-slide
+{
     width: auto;
-    }
+}
 
-    .gallery-slider .swiper-slide img {
+.gallery-slider .swiper-slide img,
+.gallery-slider02 .swiper-slide img 
+.gallery-slider03 .swiper-slide img ,
+.gallery-slider04 .swiper-slide img 
+
+{
     display: block;
     width: 100%;
     margin: 0 auto;
-    }
+}
 
-    .gallery-thumbs {
+/* Gallery Thumbnails */
+.gallery-thumbs,
+.gallery-thumbs02,
+.gallery-thumbs03,
+.gallery-thumbs04
+{
     width: 100%;
     padding: 0;
     overflow: hidden;
-    }
+}
 
-    .gallery-thumbs .swiper-slide {
-    width: 100px;
-    height: 100px;
+.gallery-thumbs .swiper-slide,
+.gallery-thumbs02 .swiper-slide,
+.gallery-thumbs03 .swiper-slide,
+.gallery-thumbs04 .swiper-slide
+
+{
+    width: 106px;
+    height: 78px;
     text-align: center;
     overflow: hidden;
-    opacity: 0.1;
-    }
+    border-radius: 3px;
+  
+}
 
-    .gallery-thumbs .swiper-slide-active {
+.gallery-thumbs .swiper-slide-active,
+.gallery-thumbs02 .swiper-slide-active,
+.gallery-thumbs03 .swiper-slide-active,
+.gallery-thumbs04 .swiper-slide-active
+{
     opacity: 1;
-    }
+    border: 2px solid #1B5EC7;
+    border-radius: 8px;
+}
 
-    .gallery-thumbs .swiper-slide img {
+.gallery-thumbs .swiper-slide img,
+.gallery-thumbs02 .swiper-slide img,
+.gallery-thumbs03 .swiper-slide img,
+.gallery-thumbs04 .swiper-slide img
+{
     width: auto;
     height: 100%;
-    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-    .gallery-slider02 {
-        width: 100%;
-        height: auto;
-        margin: 0 0 10px 0;
-        }
-    
-        .gallery-slider02 .swiper-slide {
-        width: auto;
-        }
-    
-        .gallery-slider02 .swiper-slide img {
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-        }
-    
-        .gallery-thumbs02 {
-        width: 100%;
-        padding: 0;
-        overflow: hidden;
-        }
-    
-        .gallery-thumbs02 .swiper-slide {
-        width: 100px;
-        height: 100px;
-        text-align: center;
-        overflow: hidden;
-        opacity: 0.1;
-        }
-    
-        .gallery-thumbs02 .swiper-slide-active {
-        opacity: 1;
-        }
-    
-        .gallery-thumbs02 .swiper-slide img {
-        width: auto;
-        height: 100%;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-
     #workplace .slider__controls {
         display: flex;
-        top: 15%;
-        left: 0px;
+        top: 30%;
+        left: 0;
         width: 100%;
     }
-
+    .gallery-thumbs, .gallery-thumbs02, .gallery-thumbs03, .gallery-thumbs04 {
+        display: none;
+    }
+    #workplace .slider__controls img {
+        width: 55px;
+    }
+    .gallery {
+        padding: 0px 12px;
+    }
 }
 
 @media (max-width: 374px) {
-
-
-
- 
+    /* Add specific styles for smaller screens if needed */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
