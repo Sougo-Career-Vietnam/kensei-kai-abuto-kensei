@@ -686,11 +686,12 @@
                   }
                   .goApply {
                     @extend %btnGrayBase;
-                    background: $goApplyBtnsBgColor;
+                    background:#F39393;
                     line-height: 1.5;
                     transition: all .3s;
                     color: $goApplyBtnsTextColor;
                     font-size: rem(14);
+                    border-radius: 10px;
                     i {
                       padding-left: 0.5rem;
                     }
@@ -705,8 +706,9 @@
                       opacity: 0.7;
                     }
                     &.telDialog {
-                      background: $btnTelSubmitColor;
+                      background: #E8D37B;
                       color: $btnTelSubmitTextColor;
+                      border-radius: 10px;
                     }
                     &.concier {
                       background-color: $searchGoConcierBtnBgColor;

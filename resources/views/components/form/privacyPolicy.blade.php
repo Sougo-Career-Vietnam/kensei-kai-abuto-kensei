@@ -96,6 +96,9 @@ $mode = 'apply';
     @endif
 
     </div>
-
-    <button class="confirmApply locked" type="submit" value="" disabled>内容を確認する</button>
+    <div class="flex-buton">
+      
+        <button class="confirmApply locked" type="submit" value="" disabled>内容を確認する</button>
+    </div>
+    
 </aside>

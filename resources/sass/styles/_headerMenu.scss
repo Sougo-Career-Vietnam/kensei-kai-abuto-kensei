@@ -343,15 +343,39 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     .navItemBg {
       &.navItemSearch {
         .js-clickitem {
-          background-color: #F39393;
+          background-color: #6D9EEB;
           border: 1px solid $white;
+          border-radius: 10px;
+          color: white;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            background-image: url(/public/images/common/icon_serch.svg);
+            width: 26px;
+            height: 26px;
+            top: 14px;
+            left: 45px;
+          }
         }
       }
       &.navItemEntry {
         padding-top: 10px;
         .js-clickitem {
-          background-color: $accentColor;
+          background-color: #F39393;
           border: 1px solid $white;
+          border-radius: 10px;
+          color: white;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            background-image: url(/public/images/common/icon_home.svg);
+            width: 26px;
+            height: 26px;
+            top: 11px;
+            left: 45px;
+          }
         }
       }
       &.navListFavorite {
@@ -366,9 +390,10 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           display: flex;
           justify-content: center;
           align-items : center;
-          width: 300px;
+          width: 250px;
           height: 50px;
           padding: 9px 0;
+          border-radius: 30px;
           .letterTop {
             margin: 0 10px 0 0;
             line-height: 1;

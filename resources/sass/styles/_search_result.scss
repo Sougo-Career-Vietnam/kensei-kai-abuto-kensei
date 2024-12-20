@@ -244,11 +244,12 @@ section.jobSummary {
       .goJob {
         @extend %btnGrayBase;
         display: block;
-        background: $goDetailBtnBgColor;
+        background: #1B5EC7;
         color: $goDetailBtnTextColor;
         cursor: pointer;
         transition: all .3s;
         font-size: rem(14);
+        border-radius: 10px;
         i {
           padding-left: 1rem;
         }

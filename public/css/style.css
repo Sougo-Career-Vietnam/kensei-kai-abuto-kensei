@@ -189,7 +189,9 @@
 
 
 
-
+#top #mvSlider .mvWrapper:after {
+  display: none !important;
+}
 
 /* // -----page top------ */
  /* #top {

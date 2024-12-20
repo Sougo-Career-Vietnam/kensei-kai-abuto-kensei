@@ -362,7 +362,7 @@
     .jobSearchBtn {
       @extend %formReset;
       display: inline-block;
-      background: $jobSearchBtnBgColor !important;
+      background: #1B5EC7 !important;
       transition: all .3s;
       color: $jobSearchBtnTextColor;
       font-weight: 500;
@@ -374,6 +374,7 @@
       width: 260px;
       height: auto;
       font-size: 1.15rem;
+      border-radius: 10px;
       @include xs {
         width: 80%;
         max-width: 300px;

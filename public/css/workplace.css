@@ -1,0 +1,158 @@
+
+#workplace .slider__controls {
+    position: absolute;
+    top: 50%;
+    width: calc(100% + 200px);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    z-index: 99;
+    left: -100px;
+}
+
+   .gallery, .gallery02{
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto;
+    opacity: 0px 40px;
+    position: relative;
+    }
+
+    .gallery-slider {
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    }
+
+    .gallery-slider .swiper-slide {
+    width: auto;
+    }
+
+    .gallery-slider .swiper-slide img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    .gallery-thumbs {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    }
+
+    .gallery-thumbs .swiper-slide {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0.1;
+    }
+
+    .gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+    }
+
+    .gallery-thumbs .swiper-slide img {
+    width: auto;
+    height: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .gallery-slider02 {
+        width: 100%;
+        height: auto;
+        margin: 0 0 10px 0;
+        }
+    
+        .gallery-slider02 .swiper-slide {
+        width: auto;
+        }
+    
+        .gallery-slider02 .swiper-slide img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        }
+    
+        .gallery-thumbs02 {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+        }
+    
+        .gallery-thumbs02 .swiper-slide {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        overflow: hidden;
+        opacity: 0.1;
+        }
+    
+        .gallery-thumbs02 .swiper-slide-active {
+        opacity: 1;
+        }
+    
+        .gallery-thumbs02 .swiper-slide img {
+        width: auto;
+        height: 100%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #workplace .slider__controls {
+        display: flex;
+        top: 15%;
+        left: 0px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 374px) {
+
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

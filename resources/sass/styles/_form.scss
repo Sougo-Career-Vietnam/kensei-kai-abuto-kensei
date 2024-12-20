@@ -805,7 +805,8 @@
       color: $submitBtnTextColor;
       font-size: rem(16);
       &.locked {
-          background-color: #CCC;
+          background-color: #1B5EC7;
+          border-radius: 10px;
           @include minWidthXs {
               &:hover {
                   opacity: 1 !important;
