@@ -69,7 +69,7 @@
 
 
     <div class="box-link-top">
-      <a  class="a-link webregist" href="">詳しくはこちら</a>
+      <a  class="a-link webregist" href="{{Route('top')}}/webregist">詳しくはこちら</a>
      </div>
 
      <div class="icon-left">

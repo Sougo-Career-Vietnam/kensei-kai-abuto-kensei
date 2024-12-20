@@ -80,14 +80,13 @@
           </div>
           <div class="slider__button-next">
             <img class="arrow-prev two" src="{{asset('images/top/arrow-prev.png')}}">
-              {{-- <img class="arrow-next" src="{{asset('images/top/arrow-next.png')}}"> --}}
           </div>
   
       </div>
 
     </div>
      <div class="box-link-top">
-      <a  class="a-link" href="">もっと見る</a>
+      <a  class="a-link" href="{{Route('top')}}/reason">もっと見る</a>
      </div>
 
   </div>

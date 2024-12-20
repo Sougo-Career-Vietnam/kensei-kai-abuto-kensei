@@ -70,9 +70,9 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
             var mySwiperTop = new Swiper('#mvSlider .js-mvSlider', {
                 loop: true,
                 effect: 'fade',
-                speed: 3000000,
+                speed: 1500,
                 autoplay: {
-                    delay: 3000000,
+                    delay: 1500,
                     stopOnLastSlide: false,
                     disableOnInteraction: false,
                     reverseDirection: false
@@ -87,9 +87,9 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 
                 breakpoints: {
                     767: {
-                        speed: 3000000,
+                        speed: 1500,
                         autoplay: {
-                            delay: 3000000,
+                            delay: 1500,
                         }
                     }
                 },

@@ -781,9 +781,13 @@
   margin: auto;
   padding: 0px 20px;
 }
+@media (max-width: 1500px) {
 
+#workplace .block-workplace {
+  height: auto;
+}
 
-
+}
 @media (max-width: 768px) {
 
   #workplace .img-mobi {
@@ -1182,4 +1186,24 @@
     margin-bottom: 50px !important;
     margin-top: 20px !important
   }
+}
+
+
+@media (max-width: 374px) {
+  #top .message {
+    padding: 20px 10px 0px 10px;
+  }
+  #top .content-message {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  #top #reason .note-reason {
+    font-size: 13px;
+  }
+  #webregist .line-text {
+    font-size: 12px;
+    margin-bottom: 20px;
+    max-width: 245px;
+}
 }

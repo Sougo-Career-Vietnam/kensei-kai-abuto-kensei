@@ -23,7 +23,7 @@
           あぶと健生苑、あぶとの家、ざおう健生苑東館、ざおう健生苑本館、各施設の特徴を写真付きでご紹介します。
         </p>
         <div class="box-link-top two destop">
-          <a  class="a-link" href="">もっと見る</a>
+          <a  class="a-link" href="{{Route('top')}}/workplace">もっと見る</a>
         </div>
 
     </div>
