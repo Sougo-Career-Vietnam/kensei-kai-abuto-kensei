@@ -78,7 +78,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_01_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/01slider_01_pc.png')}}" alt="">
                                   </picture>
-                            
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">正面入り口</dt>
+                                    <dd class="dd-slider">施設の入口です。入居時やデイサービスのお迎えなどのおクルマもポーチ下までお入りいただけます。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -86,19 +89,33 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_02_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/01slider_02_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">共有スペース</dt>
+                                    <dd class="dd-slider">ユニットの入居者様が食事をしたり、皆さんで談笑したりできるスペースです。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
-                                <source media="(max-width: 767px)" srcset="{{asset('images/workplace/01slider_03_sp.png')}}">
-                                <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_03_pc.png')}}">
-                                <img class="sizes" src="{{asset('images/workplace/01slider_03_pc.png')}}" alt="">
-                              </picture></div>
+                                    <source media="(max-width: 767px)" srcset="{{asset('images/workplace/01slider_03_sp.png')}}">
+                                    <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_03_pc.png')}}">
+                                    <img class="sizes" src="{{asset('images/workplace/01slider_03_pc.png')}}" alt="">
+                               </picture>
+                               <dl class="dl-slider">
+                                <dt class="dt-slider">廊下</dt>
+                                <dd class="dd-slider">廊下幅が広く、時には歩行訓練を行っています。 </dd>
+                            </dl>
+                            
+                            </div>
                             <div class="swiper-slide">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/workplace/01slider_04_sp.png')}}">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_04_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/01slider_04_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">居室</dt>
+                                    <dd class="dd-slider">全室個室で他の人に遠慮することなく、ご自身のペースで生活できます。 </dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -106,6 +123,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_05_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/01slider_05_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">個浴</dt>
+                                    <dd class="dd-slider">ご自宅のお風呂のようにゆったりとした時間を過ごしていただけます。 </dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -113,6 +134,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_06_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/01slider_06_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">特浴</dt>
+                                    <dd class="dd-slider">個浴や車浴で入浴するのが難しくなった方は、特浴で対応させていただいています。 </dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -120,6 +145,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_07_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/01slider_07_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">個別イベント</dt>
+                                    <dd class="dd-slider">ご本人の誕生日のお祝いなど、ご本人様の希望に沿って外食等も計画しています。 </dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -127,12 +156,13 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/01slider_08_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/01slider_08_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">窓辺から見える景色</dt>
+                                    <dd class="dd-slider">初秋から冬にかけて、内海大橋に沈む夕陽は絶景です。 </dd>
+                                </dl>
                             </div>
                         </div>
-                        <dl class="dl-slider">
-                            <dt class="dt-slider">正面入り口</dt>
-                            <dd class="dd-slider">施設の入口です。入居時やデイサービスのお迎えなどのおクルマもポーチ下までお入りいただけます。</dd>
-                        </dl>
+       
                     </div>
                 
                     <div class="swiper-container gallery-thumbs">
@@ -243,7 +273,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/02slider_01_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/02slider_01_pc.png')}}" alt="">
                                   </picture>
-                            
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">建物 外観</dt>
+                                    <dd class="dd-slider">ドローンで見る施設の外観です。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -251,19 +284,32 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/02slider_02_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/02slider_02_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">共有スペース</dt>
+                                    <dd class="dd-slider">スタッフと一緒に料理をしたり、掃除をしたり‥‥<br>カラオケを楽しむことも楽しんでいます。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
-                                <source media="(max-width: 767px)" srcset="{{asset('images/workplace/02slider_03_sp.png')}}">
-                                <source media="(min-width: 768px)" srcset="{{asset('images/workplace/02slider_03_pc.png')}}">
-                                <img class="sizes" src="{{asset('images/workplace/02slider_03_pc.png')}}" alt="">
-                              </picture></div>
+                                    <source media="(max-width: 767px)" srcset="{{asset('images/workplace/02slider_03_sp.png')}}">
+                                    <source media="(min-width: 768px)" srcset="{{asset('images/workplace/02slider_03_pc.png')}}">
+                                    <img class="sizes" src="{{asset('images/workplace/02slider_03_pc.png')}}" alt="">
+                              </picture>
+                              <dl class="dl-slider">
+                                <dt class="dt-slider">ポーチから見える景色</dt>
+                                <dd class="dd-slider">目の前に瀬戸内海を見ることができ、時には外に出てバーべキューをしたり、桜のシーズンには花見をして季節を楽しんでいます。</dd>
+                            </dl>
+                            </div>
                             <div class="swiper-slide">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/workplace/02slider_04_sp.png')}}">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/02slider_04_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/02slider_04_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">浴室</dt>
+                                    <dd class="dd-slider">一般浴で入浴するのが難しくなった場合も、イスに乗ったまま入ることが可能です。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -271,12 +317,13 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/02slider_05_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/02slider_05_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">ポーチから見える景色</dt>
+                                    <dd class="dd-slider">目の前に瀬戸内海を見ることができ、時には外に出てバーべキューをしたり、桜のシーズンには花見をして季節を楽しんでいます。</dd>
+                                </dl>
                             </div>
                         </div>
-                        <dl class="dl-slider">
-                            <dt class="dt-slider">建物 外観</dt>
-                            <dd class="dd-slider">ドローンで見る施設の外観です。</dd>
-                        </dl>
+           
                     </div>
                 
                     <div class="swiper-container gallery-thumbs02">
@@ -366,7 +413,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/03slide_01_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/03slide_01_pc.png')}}" alt="">
                                   </picture>
-                            
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">外観</dt>
+                                    <dd class="dd-slider">施設の外観です。ショートステイの入退所や面会の方もこちらの玄関からお入りいただきます。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -374,19 +424,32 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/03slide_02_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/03slide_02_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">共有スペース</dt>
+                                    <dd class="dd-slider">広いホールで他の利用者様と談笑したり、広い廊下で歩行訓練などのリハビリを行っています。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
-                                <source media="(max-width: 767px)" srcset="{{asset('images/workplace/03slide_03_sp.png')}}">
-                                <source media="(min-width: 768px)" srcset="{{asset('images/workplace/03slide_03_pc.png')}}">
-                                <img class="sizes" src="{{asset('images/workplace/03slide_03_pc.png')}}" alt="">
-                              </picture></div>
+                                    <source media="(max-width: 767px)" srcset="{{asset('images/workplace/03slide_03_sp.png')}}">
+                                    <source media="(min-width: 768px)" srcset="{{asset('images/workplace/03slide_03_pc.png')}}">
+                                    <img class="sizes" src="{{asset('images/workplace/03slide_03_pc.png')}}" alt="">
+                                </picture>
+                                <dl class="dl-slider">
+                                    <dt class="dt-slider">2人部屋</dt>
+                                    <dd class="dd-slider">個々のスペースごとにプライバシー保護のため、パーテーションで仕切られております。</dd>
+                                </dl>
+                            </div>
                             <div class="swiper-slide">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/workplace/03slide_04_sp.png')}}">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/03slide_04_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/03slide_04_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">4人部屋</dt>
+                                    <dd class="dd-slider">個々のスペースごとにプライバシー保護のため、パーテーションで仕切られております。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -394,6 +457,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/03slide_05_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/03slide_05_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">個浴</dt>
+                                    <dd class="dd-slider">ご自宅のお風呂のようにゆったりとした時間を過ごしていただけます。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -401,12 +468,13 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/03slide_06_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/03slide_06_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">車浴</dt>
+                                    <dd class="dd-slider">個浴での入浴が難しい方は、イスに乗ったまま入浴することができます。</dd>
+                                </dl>
                             </div>
                         </div>
-                        <dl class="dl-slider">
-                            <dt class="dt-slider">外観</dt>
-                            <dd class="dd-slider">施設の外観です。ショートステイの入退所や面会の方もこちらの玄関からお入りいただきます。</dd>
-                        </dl>
+         
                     </div>
                 
                     <div class="swiper-container gallery-thumbs03">
@@ -505,7 +573,10 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/04slide_01_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/04slide_01_pc.png')}}" alt="">
                                   </picture>
-                            
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">外観</dt>
+                                    <dd class="dd-slider">施設の外観です。ショートステイの入退所、面会もこちらの玄関からお入りいただけます。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -513,19 +584,34 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/04slide_02_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/04slide_02_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">共有スペース</dt>
+                                    <dd class="dd-slider">日中は皆さんホールで楽しく談笑されています。食事もホールで皆さんで召し上がられます。</dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
-                                <source media="(max-width: 767px)" srcset="{{asset('images/workplace/04slide_03_sp.png')}}">
-                                <source media="(min-width: 768px)" srcset="{{asset('images/workplace/04slide_03_pc.png')}}">
-                                <img class="sizes" src="{{asset('images/workplace/04slide_03_pc.png')}}" alt="">
-                              </picture></div>
+                                    <source media="(max-width: 767px)" srcset="{{asset('images/workplace/04slide_03_sp.png')}}">
+                                    <source media="(min-width: 768px)" srcset="{{asset('images/workplace/04slide_03_pc.png')}}">
+                                    <img class="sizes" src="{{asset('images/workplace/04slide_03_pc.png')}}" alt="">
+                                </picture>
+                                <dl class="dl-slider">
+                                    <dt class="dt-slider">キッチン</dt>
+                                    <dd class="dd-slider">家庭的な雰囲気を感じていただきたく、食事の盛り付けをこのキッチンで行います。</dd>
+                                </dl>
+                            
+                            </div>
                             <div class="swiper-slide">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/workplace/04slide_04_sp.png')}}">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/04slide_04_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/04slide_04_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">看護ステーション</dt>
+                                    <dd class="dd-slider">看護師がくすりの仕分けや看護業務を行っています。
+                                    </dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -533,6 +619,11 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/04slide_05_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/04slide_05_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">特浴</dt>
+                                    <dd class="dd-slider">個浴で入浴が難しい方は、横になって入ることができる特浴を利用します。
+                                    </dd>
+                                </dl>
                             </div>
                             <div class="swiper-slide">
                                 <picture class="image">
@@ -540,12 +631,13 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/workplace/04slide_06_pc.png')}}">
                                     <img class="sizes" src="{{asset('images/workplace/04slide_06_pc.png')}}" alt="">
                                   </picture>
+                                  <dl class="dl-slider">
+                                    <dt class="dt-slider">フロア行事</dt>
+                                    <dd class="dd-slider">季節ごとの行事をスタッフが立案し、入居者の皆様に楽しんでいただけるイベントを目指しています。</dd>
+                                </dl>
                             </div>
                         </div>
-                        <dl class="dl-slider">
-                            <dt class="dt-slider">外観</dt>
-                            <dd class="dd-slider">施設の外観です。ショートステイの入退所、面会もこちらの玄関からお入りいただけます。</dd>
-                        </dl>
+
                     </div>
                 
                     <div class="swiper-container gallery-thumbs04">

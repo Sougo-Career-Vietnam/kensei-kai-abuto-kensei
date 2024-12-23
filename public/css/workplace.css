@@ -98,7 +98,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 55px;
+    bottom: -93px;
     z-index: 99;
     background: white;
     width: 85%;
@@ -173,6 +173,7 @@
 {
     width: auto;
     margin-bottom: 150px;
+    position: relative;
 }
 
 .gallery-slider .swiper-slide img,
@@ -226,8 +227,9 @@
 .gallery-thumbs03 .swiper-slide img,
 .gallery-thumbs04 .swiper-slide img
 {
-    width: auto;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Responsive Adjustments */
