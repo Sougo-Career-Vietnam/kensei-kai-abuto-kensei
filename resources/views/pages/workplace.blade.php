@@ -8,19 +8,66 @@
 
         {{--html埋め込み部分 start--}}
         <link rel="stylesheet" media="all" href="./css/workplace.css"/>
+        <script type="text/javascript" src="./js/page.js"></script>
         <main id="main_wrap">
 
             <div id="workplace">
                 <div class="commonInner-slider js-fadein">
-                  <h2 class="contentHeading">
-                    <span class="ja">3つの働きやすい理由</span>
-                  </h2>
-                  <p class="note-workplace">
-                    最新技術の導入や充実のサポート体制、手厚い待<br class="sp-br">遇で働きやすさを実現しています。<br class="pc-br">
-                    スタッフ一人<br class="sp-br">ひとりが安心して成長できる職場です。
-                  </p>
+                    <h2 class="contentHeading">
+                        <span class="ja">職場紹介</span>
+                        <span class="en">WORKPLACE</span>
+                    </h2>
+
+
+                  <div class="menu__list">
+                    <a href="#p1" class="scroll menu__link">
+                      <span>あぶと健生苑</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" id="box_down_btn_pc" width="13.992" height="8" viewBox="0 0 13.992 8">
+                        <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M16.835,13.19,11.54,7.9a1,1,0,0,1,0-1.412,1.008,1.008,0,0,1,1.416,0l6,5.995a1,1,0,0,1,.029,1.379L12.961,19.9a1,1,0,1,1-1.416-1.412Z" transform="translate(20.188 -11.246) rotate(90)" fill="#fff"/>
+                      </svg>
+                    </a>
+                    <a href="#p2" class="scroll menu__link">
+                      <span>あぶとの家</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" id="box_down_btn_pc" width="13.992" height="8" viewBox="0 0 13.992 8">
+                        <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M16.835,13.19,11.54,7.9a1,1,0,0,1,0-1.412,1.008,1.008,0,0,1,1.416,0l6,5.995a1,1,0,0,1,.029,1.379L12.961,19.9a1,1,0,1,1-1.416-1.412Z" transform="translate(20.188 -11.246) rotate(90)" fill="#fff"/>
+                      </svg>
+                    </a>
+                    <a href="#p3" class="scroll menu__link">
+                        <span>ざおう健生苑 東館</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="box_down_btn_pc" width="13.992" height="8" viewBox="0 0 13.992 8">
+                            <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M16.835,13.19,11.54,7.9a1,1,0,0,1,0-1.412,1.008,1.008,0,0,1,1.416,0l6,5.995a1,1,0,0,1,.029,1.379L12.961,19.9a1,1,0,1,1-1.416-1.412Z" transform="translate(20.188 -11.246) rotate(90)" fill="#fff"/>
+                          </svg>
+                      </a>
+                      <a href="#p4" class="scroll menu__link">
+                        <span>ざおう健生苑 本館</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="box_down_btn_pc" width="13.992" height="8" viewBox="0 0 13.992 8">
+                            <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M16.835,13.19,11.54,7.9a1,1,0,0,1,0-1.412,1.008,1.008,0,0,1,1.416,0l6,5.995a1,1,0,0,1,.029,1.379L12.961,19.9a1,1,0,1,1-1.416-1.412Z" transform="translate(20.188 -11.246) rotate(90)" fill="#fff"/>
+                          </svg>
+                      </a>
+    
+                  </div>
+
+
+
+
+
+
+
+
+ 
                    {{--p1--}}
-                  <section class="gallery" id="p1">                
+                  <section class="gallery" id="p1">   
+                    
+                        <h3 class="title-samll">特別養護老人ホーム あぶと健生苑</h3>
+                        <div class="title-sub">
+                            <span class="text-sub">募集職種</span>
+                            <span class="text-sub-02">介護士、看護師</span>
+                       
+                        </div>
+                        <p class="contet-text">
+                            あぶと健生苑は、阿伏兎岬、内海大橋、矢の島を臨む瀬戸内の潮の香りが心地よい景勝地に特別養護老人ホーム、短期入所生活介護事業所、通所介護事業所、居宅介護支援事業所を開設しています。「健やかに生きる悦びの館」「創造」を基本理念としたあぶと健生苑は、豊かな自然環境と心通う介護環境が相まって、楽しく、穏やかな暮らしのお手伝いをご提供しております。
+                        </p>
+
                     <div class="swiper-container gallery-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -80,10 +127,10 @@
                                   </picture>
                             </div>
                         </div>
-
-
-
-            
+                        <dl class="dl-slider">
+                            <dt class="dt-slider">正面入り口</dt>
+                            <dd class="dd-slider">施設の入口です。入居時やデイサービスのお迎えなどのおクルマもポーチ下までお入りいただけます。</dd>
+                        </dl>
                     </div>
                 
                     <div class="swiper-container gallery-thumbs">
@@ -168,10 +215,18 @@
                         </div>
                 
                     </div> 
+
+                    
+          
                   </section>
               
                    {{--p2--}}
-                <section class="gallery" id="p2">                
+                <section class="gallery" id="p2"> 
+                    
+                    
+
+
+
                     <div class="swiper-container gallery-slider02">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -537,6 +592,9 @@
                                 nextEl: navigationNext,
                                 prevEl: navigationPrev,
                             },
+                            // autoplay: {
+                            // delay: 1500,
+                            // }
                         });
 
                         // Thumbnails slider
