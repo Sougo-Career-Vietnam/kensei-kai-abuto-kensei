@@ -57,7 +57,7 @@
  
                    {{--p1--}}
                   <section class="gallery" id="p1">   
-                    
+                     <div class="box-title">
                         <h3 class="title-samll">特別養護老人ホーム あぶと健生苑</h3>
                         <div class="title-sub">
                             <span class="text-sub">募集職種</span>
@@ -67,6 +67,8 @@
                         <p class="contet-text">
                             あぶと健生苑は、阿伏兎岬、内海大橋、矢の島を臨む瀬戸内の潮の香りが心地よい景勝地に特別養護老人ホーム、短期入所生活介護事業所、通所介護事業所、居宅介護支援事業所を開設しています。「健やかに生きる悦びの館」「創造」を基本理念としたあぶと健生苑は、豊かな自然環境と心通う介護環境が相まって、楽しく、穏やかな暮らしのお手伝いをご提供しております。
                         </p>
+                     </div>
+   
 
                     <div class="swiper-container gallery-slider">
                         <div class="swiper-wrapper">
@@ -222,11 +224,17 @@
               
                    {{--p2--}}
                 <section class="gallery" id="p2"> 
+                    <div class="box-title">
+                        <h3 class="title-samll">認知症対応型共同生活介護事業所 あぶとの家</h3>
+                        <div class="title-sub">
+                            <span class="text-sub">募集職種</span>
+                            <span class="text-sub-02">介護職員</span>
                     
-                    
-
-
-
+                        </div>
+                        <p class="contet-text">
+                            「潮の香り」「白波の輝き」瀬戸内海を眺めながら、心癒される最高のロケーションの中で、ご自宅で今までしてきた暮らしをできる限り大切にし、その人らしさを尊重しながらスタッフと入居者様と楽しく生活しています。あぶとの家では、少人数を単位とした共同生活住居で食事の支度や、掃除洗濯などをスタッフとともに行っています。家庭的で落ち着いた雰囲気の中で生活を送ることにより認知症の進行を穏やかにし、家庭介護の負担軽減に資するものです。
+                        </p>     
+                    </div>
                     <div class="swiper-container gallery-slider02">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -265,6 +273,10 @@
                                   </picture>
                             </div>
                         </div>
+                        <dl class="dl-slider">
+                            <dt class="dt-slider">建物 外観</dt>
+                            <dd class="dd-slider">ドローンで見る施設の外観です。</dd>
+                        </dl>
                     </div>
                 
                     <div class="swiper-container gallery-thumbs02">
@@ -307,7 +319,7 @@
                         </div>
                     </div>
                     
-                    <div class="slider__controls flex">
+                    <div class="slider__controls flex two">
                         <div class="slider__button-prev02">
                             <picture class="image">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/workplace/arrow-prev_sp.png')}}">
@@ -333,7 +345,19 @@
 
 
                    {{--p3--}}
-                   <section class="gallery" id="p3">                
+                   <section class="gallery" id="p3"> 
+                    <div class="box-title">  
+                        <h3 class="title-samll">ざおう健生苑短期入所生活介護事業所東館</h3>
+                        <div class="title-sub">
+                            <span class="text-sub">募集職種</span>
+                            <span class="text-sub-02">介護士</span>
+                    
+                        </div>
+                
+                    <p class="contet-text">
+                        ざおう健生苑東館は定員50名、要支援及び要介護1から5の認定を受けた方がご利用できる施設となっております。施設内の居室は4人部屋10室、2人部屋4室、1人部屋2室の多床室からなっております。各プライベートスペースがパーテーションで仕切られておりプライバシーに配慮されたつくりとなっております。職員一同「思いやり」と「あたたかさ」を基本方針に介護サービスの提供を行います。
+                    </p> 
+                </div>            
                     <div class="swiper-container gallery-slider03">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -379,6 +403,10 @@
                                   </picture>
                             </div>
                         </div>
+                        <dl class="dl-slider">
+                            <dt class="dt-slider">外観</dt>
+                            <dd class="dd-slider">施設の外観です。ショートステイの入退所や面会の方もこちらの玄関からお入りいただきます。</dd>
+                        </dl>
                     </div>
                 
                     <div class="swiper-container gallery-thumbs03">
@@ -428,7 +456,7 @@
                         </div>
                     </div>
                     
-                    <div class="slider__controls flex">
+                    <div class="slider__controls flex three">
                         <div class="slider__button-prev03">
                             <picture class="image">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/workplace/arrow-prev_sp.png')}}">
@@ -456,7 +484,19 @@
 
 
                    {{--p4--}}
-                   <section class="gallery" id="p4">                
+                   <section class="gallery" id="p4">  
+                    <div class="box-title">    
+                        <h3 class="title-samll">地域密着型特別養護老人ホーム ざおう健生苑本館</h3>
+                        <div class="title-sub">
+                            <span class="text-sub">募集職種</span>
+                            <span class="text-sub-02">介護士</span>
+                    
+                        </div>
+                
+                    <p class="contet-text">
+                        ざおう健生苑本館は入居者様お一人お一人にしっかりと向き合い、ユニットに配置された決まったスタッフが日々お世話させていただく事により、入居者様が安心してケアを受けていただけるようにサービス提供に努めております。住み慣れた地域で家庭的な温かさのある雰囲気を大切に、家族や地域の方々との結びつきを重視しています。入居者様、家族の方々に「ざおう健生苑本館で良かった」と思っていただけるよう「素顔が笑顔でいられる」施設づくりを目指しています。
+                    </p>   
+                   </div>       
                     <div class="swiper-container gallery-slider04">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -502,6 +542,10 @@
                                   </picture>
                             </div>
                         </div>
+                        <dl class="dl-slider">
+                            <dt class="dt-slider">外観</dt>
+                            <dd class="dd-slider">施設の外観です。ショートステイの入退所、面会もこちらの玄関からお入りいただけます。</dd>
+                        </dl>
                     </div>
                 
                     <div class="swiper-container gallery-thumbs04">
@@ -551,7 +595,7 @@
                         </div>
                     </div>
                     
-                    <div class="slider__controls flex">
+                    <div class="slider__controls flex four">
                         <div class="slider__button-prev04">
                             <picture class="image">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/workplace/arrow-prev_sp.png')}}">
@@ -562,8 +606,6 @@
               
                         </div>
                         <div class="slider__button-next04">
-                     
-
                               <picture class="image">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/workplace/arrow-back_sp.png')}}">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/workplace/arrow-back_pc.png')}}">
