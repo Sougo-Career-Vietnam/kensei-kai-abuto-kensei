@@ -15,8 +15,6 @@
                     <span class="ja">3つの働きやすい理由</span>
                 </h2>
                 <div class="commonInner-slider js-fadein">
-              
-
                   <div class="box-slider">
                     <div class="slider mySwiper">
                         <ul class="list-slider swiper-wrapper">
@@ -30,9 +28,6 @@
                                 </picture>
                                 <dl class="dl-slider">
                                   <dt class="dt-slider">介護ロボット<br class="pc-br">ICT導入</dt>
-                                  {{-- <dd class="dd-slider">最新技術で効率化や負担軽減し、<br>
-                                    働きやすさをサポートします。</dd> --}}
-              
                                     <dd class="dd-icon">
                                       <picture class="image">
                                         <source  srcset="{{asset('images/top/slider_icon_01.svg')}}">
@@ -52,9 +47,6 @@
                                 </picture>
                                 <dl class="dl-slider">
                                   <dt class="dt-slider">未経験の方への<br class="pc-br">フォロー体制</dt>
-                                  {{-- <dd class="dd-slider">研修や勉強会で基礎から学び、<br>
-                                    安心して働くことができます。</dd> --}}
-              
                                     <dd class="dd-icon">
                                       <picture class="image">
                                         <source  srcset="{{asset('images/top/slider_icon_02.svg')}}">
@@ -74,8 +66,6 @@
                                 </picture>
                                 <dl class="dl-slider">
                                   <dt class="dt-slider">給与と手当の<br class="pc-br">手厚い還元</dt>
-                                  {{-- <dd class="dd-slider">安定した収入と充実の手当で<br class="sp-br">長く働ける<br class="pc-br">
-                                    環境づくりに<br class="sp-br">努めています。</dd> --}}
                                     <dd class="dd-icon">
                                       <picture class="image">
                                         <source  srcset="{{asset('images/top/slider_icon_03.svg')}}">
@@ -86,8 +76,6 @@
                             </a>  
                             </li>
                         </ul>
-              
-              
                     </div>
                     <div class="slider__controls">
                         <div class="slider__button-prev">
@@ -95,16 +83,11 @@
                         </div>
                         <div class="slider__button-next">
                           <img class="arrow-prev two" src="{{asset('images/top/arrow-prev.png')}}">
-                            {{-- <img class="arrow-next" src="{{asset('images/reason/arrow-next.png')}}"> --}}
                         </div>
-                
                     </div>
-              
                   </div>
-
                 </div>
             </section>
-
 
               <div class="content-main">
                 <section class="block-reason" id="p1">
@@ -198,7 +181,6 @@
                       </div>
                 </section>
   
-  
                 <section class="block-reason" id="p2">
                   <div class="inner-reason">
                       <div class="title-block flex">
@@ -286,10 +268,6 @@
                       </div>
                 </section>
   
-  
-  
-  
-  
                 <section class="block-reason" id="p3">
                   <div class="inner-reason">
                       <div class="title-block flex">
@@ -311,7 +289,6 @@
                           </div>
   
                       </div>
-  
                       <div class="box-galary">
                         <h3 class="title-galary">給与・手当例</h3>
                         <ul class="list-galary flex">
@@ -319,10 +296,10 @@
                              <li class="item-galary">
                               <div class="info-box">
                                 <div class="flex top-title">
-                                  <p> <span class="age">40歳</span><span class="role">看護師</span> </p>
-                                  <p> <span class="total">合計</span><span class="total-big">272,600</span> <span>円 ＋通勤手当</span></p>
+                                  <p> <span class="age">30歳</span><span class="role">介護福祉士</span></p>
+                                  <p> <span class="total">合計</span><span class="total-big">272,600</span><span><span class="total">円</span><span class="total-samll">＋通勤手当</span></p>
                                 </div>
-                                <p class="note">※休まずオンコール月6回した場合</p>
+                                <p class="note">※ 休まず月5回夜勤をした場合</p>
                               </div>
 
                               <div class="info-galary flex">
@@ -346,36 +323,27 @@
                                 </ul>
                                 <ul class="right">
                                   <li class="item-left flex">
-                                    <p class="text-galary">基本給</p>
-                                    <p class="text-galary">160,100円</p>
+                                    <p class="text-galary">資格手当</p>
+                                    <p class="text-galary">5,000円</p>
                                   </li>
                                   <li class="item-left flex">
-                                    <p class="text-galary">処遇改善手当</p>
-                                    <p class="text-galary">45,000円</p>
+                                    <p class="text-galary">特定処遇改善手当</p>
+                                    <p class="text-galary">23,000円</p>
                                   </li>
                                   <li class="item-left flex">
-                                    <p class="text-galary">処遇改善支援補助金</p>
-                                    <p class="text-galary">7,000円</p>
+                                    <p class="text-galary">夜勤手当</p>
+                                    <p class="text-galary">27,500円</p>
                                   </li>
-                   
                                 </ul>
-
                               </div>
-
-
-
-
-
-
-
                              </li>
                        
                
                              <li class="item-galary">
                               <div class="info-box">
                                 <div class="flex top-title">
-                                  <p> <span class="age">40歳</span><span class="role">看護師</span> </p>
-                                  <p> <span class="total">合計</span><span class="total-big">272,600</span> <span>円 ＋通勤手当</span></p>
+                                  <p> <span class="age">40歳</span><span class="role">看護師</span></p>
+                                  <p> <span class="total">合計</span><span class="total-big">243,000</span><span><span class="total">円</span><span class="total-samll">＋ 通勤手当</span></p>
                                 </div>
                                 <p class="note">※休まずオンコール月6回した場合</p>
                               </div>
@@ -384,33 +352,22 @@
                                 <ul class="left">
                                   <li class="item-left flex">
                                     <p class="text-galary">基本給</p>
-                                    <p class="text-galary">160,100円</p>
+                                    <p class="text-galary"> 217,650円</p>
                                   </li>
                                   <li class="item-left flex">
-                                    <p class="text-galary">処遇改善手当</p>
-                                    <p class="text-galary">45,000円</p>
+                                    <p class="text-galary">オンコール手当</p>
+                                    <p class="text-galary">6,000円</p>
                                   </li>
-                                  <li class="item-left flex">
-                                    <p class="text-galary">処遇改善支援補助金</p>
-                                    <p class="text-galary">7,000円</p>
-                                  </li>
-                                  <li class="item-left flex">
-                                    <p class="text-galary">皆勤手当</p>
-                                    <p class="text-galary">5,000円</p>
-                                  </li>
+
                                 </ul>
                                 <ul class="right">
                                   <li class="item-left flex">
-                                    <p class="text-galary">基本給</p>
-                                    <p class="text-galary">160,100円</p>
+                                    <p class="text-galary">資格手当</p>
+                                    <p class="text-galary">15,000円</p>
                                   </li>
                                   <li class="item-left flex">
-                                    <p class="text-galary">処遇改善手当</p>
-                                    <p class="text-galary">45,000円</p>
-                                  </li>
-                                  <li class="item-left flex">
-                                    <p class="text-galary">処遇改善支援補助金</p>
-                                    <p class="text-galary">7,000円</p>
+                                    <p class="text-galary">皆勤手当</p>
+                                    <p class="text-galary"> 5,000円</p>
                                   </li>
                    
                                 </ul>

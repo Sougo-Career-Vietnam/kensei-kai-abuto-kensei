@@ -25,7 +25,6 @@
     height: 14px;
 }
 #page-reason {
-    /* background: linear-gradient(90deg, rgba(226,236,251,1) 0%, rgba(247,248,252,1) 100%); */
     background: #F7F8FC;
 }
 
@@ -298,15 +297,11 @@
     margin-bottom: 10px;
 }
 
-
-
 #page-reason .box-galary .item-galary {
    width: calc(50% - 10px);  
 }
 
 #page-reason .box-galary .info-box {
-    /* background-color: #44B772; 
-    border: 4px dashed #B9EDCE;  */
     border-radius: 10px;
     padding: 10px 20px;
     display: inline-block;
@@ -332,14 +327,9 @@
 #page-reason .box-galary .total-big {
     font-size: 30px;
 }
-
-
-
-
-  
 /* Styling specific text */
 #page-reason .box-galary  .info-box p {
-    margin: 0; /* Remove default paragraph margin */
+    margin: 0; 
     font-size: 20px;
 }
 #page-reason .box-galary .age {
@@ -347,13 +337,15 @@
 }
 #page-reason .box-galary  .info-box .total {
     font-size: 20px;
-    margin-right: 15px;
+    margin-right: 8px;
 }
-
+#page-reason .box-galary  .info-box .total-samll {
+    font-size: 16px;
+}
 #page-reason .box-galary  .info-box .note {
     font-size: 12px;
     margin-top: 5px;
-    color: #e8f5e9; /* Lightened text for note */
+    color: #e8f5e9; 
 }
 
 
@@ -581,17 +573,24 @@
     }
     #page-reason .box-galary .info-box {
         border-radius: 10px;
-        padding: 7px 20px;
+        padding: 8px 20px;
         display: inline-block;
         width: 100%;
         height: 89px;
-        margin-bottom: 15px;
+        margin-bottom: 8px;
         border-image: url(../images/reason/border2x_sp.png) 89 0 / 89px 0px / 0rem round;
     }
     #page-reason .block-reason .box-meassge h2 {
         font-size: 15px;
         color: #D9534F;
         margin-bottom: 5px;
+    }
+    #page-reason .box-galary .info-box .total-samll {
+        font-size: 13px;
+        margin-left: 4px;
+    }
+    #page-reason .box-galary .left, #page-reason .box-galary .right {
+        width: calc(50% - 5px);
     }
     #page-reason .block-reason:nth-child(1) {
         margin-bottom: 61px;
@@ -611,7 +610,7 @@
         line-height: 22px;
         border-radius: 30px;
         font-size: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     #page-reason .box-galary .info-box p {
         font-size: 15px;
@@ -619,10 +618,11 @@
     }
     #page-reason .box-galary .info-box .total {
         font-size: 15px;
-        margin-right: 15px;
+        margin-right: 0px;
     }
     #page-reason .box-galary .total-big {
         font-size: 20px;
+        margin-left: 10px;
     }
     #page-reason .box-galary .text-galary {
         font-size: 12px;
@@ -630,15 +630,19 @@
     #page-reason .box-galary .list-galary {
         padding-left: 0px;
     }
-
+    #page-reason .block-reason:nth-child(3) {
+        margin-bottom: 58px;
+    }
     #page-reason .box-galary {
-        padding: 20px 15px 20px 15px;
-        border-radius: 20px;
-        margin-bottom: 60px;
+        padding: 10px 15px 0px 15px;
+        border-radius: 10px;
+        max-width: calc(100% - 24px);
+        margin: auto;
+        margin-bottom: 30px;
     }
     #page-reason .box-galary .item-galary {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 }
 
@@ -657,9 +661,6 @@
         margin-bottom: 10px;
     }
 
-
-
- 
 }
 
 

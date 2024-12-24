@@ -1,6 +1,9 @@
 /* General Styling */
 
-
+#workplace {
+    font-family: "noto-sans-cjk-jp", sans-serif;
+    font-weight: 500;
+}
 
 #workplace .contentHeading {
     text-align: center;
@@ -17,7 +20,7 @@
     width: 14px;
     left: calc(50% - 7px);
     height: 14px;
-    top:80px    
+    top: 170px; 
 }
 #workplace .contentHeading .en {
     font-family: dinosaur, sans-serif;
@@ -43,10 +46,6 @@
 
 
 #workplace  .menu__list .menu__link {
-    /* display: flex;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center; */
     width: calc(100%/4 - 10px);
     font-size: 26px;
     color: #004391;

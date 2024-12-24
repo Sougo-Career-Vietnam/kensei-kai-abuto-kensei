@@ -6,9 +6,12 @@ footer
     position: relative;
     width: 100%;
     margin: 0;
-    padding: 20px 0;
+    padding: 5px 0 13px;
     background: #6D9EEB;
     color: $footerTextColor;
+    @include xs {
+      padding: 28px 0 10px;
+    }
 
     &::after {
         content: "";
@@ -67,15 +70,19 @@ footer
     border-radius: 50%;
     box-shadow: 0px 3px 6px #E2ECFB;
     @include xs {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
+
+      svg {
+        width: 11px;
+      }
     }
 
     i {
       color: $black;
       transition: all 0.3s ease;
     }
-
+   
     span {
       font-family: $fontDin;
       font-weight: 700;
@@ -86,7 +93,7 @@ footer
       transition: all 0.3s ease;
       @include xs {
         margin-top: 0;
-        font-size: rem(16);
+        font-size: rem(12);
       }
     }
 
@@ -191,7 +198,7 @@ footer
       flex-direction: row;
       align-items: baseline;
       justify-content: space-between;
-      padding-bottom: 70px;
+      padding-bottom: 175px;
     }
   }
 
@@ -213,8 +220,11 @@ footer
   }
 
   .footerTitle {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     position: relative;
+    @include xs {
+      margin-bottom: 18px;
+  }
     &::after {
         position: absolute;
         content: "採用サイト";
@@ -291,6 +301,9 @@ footer
             margin-left: 10px;
         }
     }
+    @include xs {
+      padding-bottom: 55px;
+    }
   }
 
   .footerRemoteNavList {
@@ -298,8 +311,8 @@ footer
     grid-auto-flow: column;
 
     @include minWidthXs {
-      margin-top: 30px;
-      grid-template-columns: 140px 160px;
+      margin-top: 23px;
+      grid-template-columns: 88px 160px;
       grid-template-rows: repeat(4, 1fr);
     }
 
@@ -334,9 +347,22 @@ footer
         }
       }
     }
+    .footerRemoteNavItem:nth-child(4), .footerRemoteNavItem:nth-child(5) {
+      text-align: left;
+      padding-left: 60px;
+      @include xs {
+        text-align: center;
+        padding-left: 0px;
+      }
+    }
+
+
+
+
   }
 
   .footerBlankRemoteNavList {
+    font-family: "noto-sans-cjk-jp", sans-serif;
       @include minWidthXs {
           //display: none;
           display: flex;
@@ -350,7 +376,7 @@ footer
           //display: block;
           display: flex;
           justify-content: center;
-          margin: 30px 0 0;
+          margin: 50px 0 0;
           position: relative;
           z-index: 1;
           .remoteNav {

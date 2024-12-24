@@ -91,6 +91,9 @@
 .recommendJobList {
   .swiper-slide {
     height: auto;
+    box-shadow: 0px 3px 6px #E2ECFB;
+    border-bottom-left-radius:16px;
+    border-top-right-radius:16px;
     @include minWidthXs {
       width: 300px;
       &:hover {
