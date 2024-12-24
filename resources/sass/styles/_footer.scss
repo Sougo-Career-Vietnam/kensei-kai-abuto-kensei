@@ -19,6 +19,7 @@ footer
         height: 44px;
         background: #6D9EEB;
         //background: #4169E1;
+        
         z-index: 0;
         @include xs {
           //height: 44px;
@@ -219,11 +220,16 @@ footer
         content: "採用サイト";
         color: $footerTextColor;
         padding-left: 0.5rem;
+        margin-top: 10px;
+        font-family: "noto-sans-cjk-jp", sans-serif;
+        font-weight: 500;
         @include minWidthXs {
             font-size: rem(16);
         }
         @include xs {
-            font-size: rem(15);
+            font-size: rem(13);
+            font-family: "noto-sans-cjk-jp", sans-serif;
+            margin-top: 8px;
         }
     }
   }
@@ -231,10 +237,12 @@ footer
   .footerAddress{
     font-size: rem(14);
     line-height: 1.78;
+    font-family: "noto-sans-cjk-jp", sans-serif;
+    font-weight: 500;
     @include minWidthXs{
       font-size: rem(16);
       font-weight: 400;
-      line-height: 1.5;
+      line-height: 30px;
     }
   }
 
@@ -300,6 +308,7 @@ footer
     }
 
   .footerRemoteNavItem {
+    font-family: "noto-sans-cjk-jp", sans-serif;
     @include minWidthXs {
         width: 100%;
         padding-bottom: 20px;
@@ -317,6 +326,7 @@ footer
         &.two {
           padding-left: 20px;
           //padding-right: 20px;
+          text-align: right;
         }
         &.three {
           padding-left: 40px;
@@ -372,10 +382,13 @@ footer
 
     small {
       font-style: normal;
+      font-family: "noto-sans-cjk-jp", sans-serif;
       font-size: rem(12);
       line-height: 1.5;
+      font-weight: 500;
       @include minWidthXs{
         font-size: rem(14);
+        font-weight: 500;
       }
     }
   }

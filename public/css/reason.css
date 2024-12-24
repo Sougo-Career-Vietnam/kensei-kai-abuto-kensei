@@ -10,9 +10,10 @@
     margin-bottom: 70px;
     width: 100%;
     height: 230px;
-    background: linear-gradient(90deg, rgba(226, 236, 251, 1) 0%, rgba(247, 248, 252, 1) 100%);
     font-size: 40px;
     color: #1B5EC7;
+    background: linear-gradient(to bottom, #E2ECFB, #F7F8FC);
+
 }
 #page-reason #reason .title-reason::after {
     position: absolute;
@@ -24,7 +25,8 @@
     height: 14px;
 }
 #page-reason {
-    background: linear-gradient(90deg, rgba(226,236,251,1) 0%, rgba(247,248,252,1) 100%);
+    /* background: linear-gradient(90deg, rgba(226,236,251,1) 0%, rgba(247,248,252,1) 100%); */
+    background: #F7F8FC;
 }
 
 #page-reason .box-slider .item-sdider {

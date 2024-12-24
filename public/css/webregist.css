@@ -1,0 +1,1813 @@
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+body {
+    font-family: "noto-sans-cjk-jp", 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+}
+
+.class {
+    font-family: "zen-maru-gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#kensei_contact {
+    font-size: 13px;
+    font-weight: 500;
+    color: #4C4C4C;
+    overflow: hidden;
+    background: #FEF7F7;
+    position: relative;
+}
+
+#kensei_contact * {
+    box-sizing: border-box;
+}
+
+#kensei_contact a {
+    transition: opacity .3s;
+}
+
+#kensei_contact a[href^="tel:"] {
+    display: inline-block;
+    transition: none;
+}
+
+#kensei_contact a:hover {
+    text-decoration: none;
+}
+
+#kensei_contact a:focus-visible {
+    outline: none;
+}
+
+#kensei_contact img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#kensei_contact .js-fadein {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+}
+
+#kensei_contact .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+#kensei_contact .pc-br {
+    display: none;
+}
+
+#kensei_contact .sp-br {
+    display: inline;
+}
+
+#kensei_contact .inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+#kensei_contact .block_banner {
+    background: linear-gradient(0deg, rgba(254, 247, 247, 1) 19%, rgba(226, 236, 251, 1) 72%);
+    padding-top: 141px;
+}
+
+#kensei_contact .block_contact_form .form_wrap {
+    margin: 30px auto;
+    padding: 47px 30px;
+}
+
+/* Steps */
+#kensei_contact .block_contact_form .steps {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 580px;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 139px;
+}
+
+#kensei_contact .block_contact_form .steps:after {
+    content: '';
+    width: 79%;
+    position: absolute;
+    bottom: 54px;
+    left: 50%;
+    transform: translateX(-47%);
+    border: none;
+    height: 4px;
+    background-image: linear-gradient(to right, #F39393 50%, transparent 50%);
+    background-size: 8px 8px;
+    background-repeat: repeat-x;
+    background-color: #FEF7F7;
+}
+
+#kensei_contact .block_contact_form .step {
+    color: #F39393;
+    font-size: 30px;
+    font-family: "dinosaur", sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+#kensei_contact .block_contact_form .step.active:before {
+    background: #EB5050;
+}
+
+#kensei_contact .block_contact_form .step:before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #F39393;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+
+#kensei_contact .block_contact_form .step.active {
+    color: #e74c3c;
+}
+
+#kensei_contact .block_contact_form .step span {
+    font-weight: 500;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #4C4C4C;
+}
+
+/* Form */
+#kensei_contact .block_contact_form .form-container .form-row {
+    margin-bottom: 32px;
+    display: flex;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .input-group .d-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+#kensei_contact .block_contact_form .form-footer .d-flex {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 585px;
+    margin: 0 auto;
+}
+
+#kensei_contact .block_contact_form .form-footer .d-flex label {
+    display: flex;
+}
+
+#kensei_contact .block_contact_form .form-footer .d-flex input {
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+#kensei_contact .block_contact_form .form-container .form-row .input-group .d-flex .label {
+    flex: 0 0 114px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .input-group .d-flex input {
+    flex: 0 0 75%;
+    background: white;
+}
+
+#kensei_contact .block_contact_form .name-group .d-flex {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#kensei_contact .block_contact_form .name-group .d-flex .label {
+    flex: 0 0 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .input-group {
+    width: 100%;
+}
+
+#kensei_contact .block_contact_form .form-row label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+    flex: 0 0 240px;
+    padding-top: 11px;
+}
+
+#kensei_contact .block_contact_form .required::after {
+    content: " 必須";
+    color: #fff;
+    background: #e74c3c;
+    font-size: 16px;
+    padding: 3px 7px;
+    margin-left: 26px;
+    border-radius: 3px;
+}
+
+#kensei_contact .block_contact_form input, #kensei_contact .block_contact_form select, #kensei_contact .block_contact_form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #4C4C4C;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#kensei_contact .block_contact_form input:hover,
+#kensei_contact .block_contact_form select:hover,
+#kensei_contact .block_contact_form textarea:hover {
+    border: 1px solid #EB5050;
+}
+
+#kensei_contact .block_contact_form .name-group, #kensei_contact .block_contact_form .dob-group {
+    display: flex;
+    gap: 23px;
+    width: 100%;
+    align-items: center;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .level_education .d-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .level_education .d-flex .width-700 {
+    flex: 0 0 74.3%;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .level_education {
+    width: 100%;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .level_education .d-flex label {
+    flex: 0 0 113px;
+}
+
+#kensei_contact .block_contact_form .dob-group span {
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .radio-group {
+    display: flex;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .radio-group label {
+    display: flex;
+    flex: 0 0 126px;
+    font-weight: 500;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .radio-group label input {
+    flex: 0 0 20px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .group_address {
+    width: 100%;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex .width-700 {
+    flex: 0 0 75%;
+    background: white;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex .label_text {
+    background: #F39393;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 3px 13px;
+    margin-left: 8px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row .level_education .width-400 {
+    width: 400px;
+    display: block;
+}
+
+#kensei_contact .block_contact_form .form-row .width-200-job {
+    width: 200px;
+}
+
+#kensei_contact .block_contact_form .form-row .group_address label {
+    flex: 0 0 115px;
+}
+
+#kensei_contact .block_contact_form .form-row .group_address input.width-200 {
+    flex: 0 0 200px;
+    padding: 17px 15px;
+    background: white;
+}
+
+#kensei_contact .block_contact_form .form-row .group_address .custom-select_address {
+    width: 397px;
+}
+
+#kensei_contact .block_contact_form .form-row .group_address .width-400 {
+    flex: 0 0 400px;
+}
+
+#kensei_contact .block_contact_form .name-group input {
+    flex: 1;
+    background: white;
+}
+
+#kensei_contact .block_contact_form .dob-group select {
+    flex: 1;
+    background: white;
+}
+
+#kensei_contact .block_contact_form .radio-group label {
+    margin-right: 15px;
+}
+
+#kensei_contact .block_contact_form textarea {
+    resize: none;
+}
+
+/* Footer */
+#kensei_contact .block_contact_form .form-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#kensei_contact .block_contact_form .form-footer label {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+#kensei_contact .block_contact_form input, textarea {
+    font-family: "noto-sans-cjk-jp", sans-serif;
+    background: white;
+}
+
+#kensei_contact .block_contact_form .form-footer p a {
+    color: #4C4C4C;
+    font-weight: 500;
+    text-decoration: underline;
+    padding-left: 40px;
+}
+
+#kensei_contact .block_contact_form .submit-btn {
+    background: #F39393;
+    color: #fff;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 360px;
+    margin-top: 21px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding-left: 42px;
+}
+
+#kensei_contact .block_contact_form .submit-btn:after {
+    content: '';
+    background: url("../images/kensei_contact/icon_arrow_right.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+#kensei_contact .block_contact_form .form-container .form-row .d-flex .desc {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+#kensei_contact .block_contact_form input::placeholder {
+    color: #D4D4D4; /* Đổi màu chữ placeholder */
+}
+
+#kensei_contact .block_contact_form textarea::placeholder {
+    color: #D4D4D4;
+}
+
+#kensei_contact .block_contact_form input:focus-visible {
+    outline: none;
+}
+
+#kensei_contact .block_contact_form textarea:focus-visible {
+    outline: none;
+}
+
+#kensei_contact .block_contact_form .submit-btn:hover {
+    background: #c0392b;
+}
+
+
+#kensei_contact .block_desc .content-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+#kensei_contact .block_desc .content-image img {
+    max-width: 150px; /* Kích thước hình ảnh */
+    height: auto;
+}
+
+#kensei_contact .block_desc .content-text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 59px;
+}
+
+#kensei_contact .block_desc {
+    position: relative;
+}
+
+#kensei_contact .block_desc:after {
+    content: '';
+    background: url("../images/kensei_contact/mark.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -79px;
+}
+
+#kensei_contact .block_desc .content-text p {
+
+}
+
+#kensei_contact .block_desc .content-text:before {
+    content: '';
+    background: url("../images/kensei_contact/left-image.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 186px;
+    height: 240px;
+    position: absolute;
+    left: -300px;
+    bottom: -79px;
+}
+
+#kensei_contact .block_desc .content-text:after {
+    content: '';
+    background: url("../images/kensei_contact/right-image.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 226px;
+    height: 140px;
+    right: -296px;
+    bottom: -80px;
+}
+
+#kensei_contact .block_desc .content-text p {
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "zen-maru-gothic";
+    color: #4C4C4C;
+}
+
+#kensei_contact .block_desc .left {
+    text-align: left;
+}
+
+#kensei_contact .block_desc .right {
+    text-align: right;
+}
+
+/* Section Title */
+#kensei_contact .section-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #EB5050;
+    margin-bottom: 80px;
+    font-family: "zen-maru-gothic", sans-serif;
+}
+
+/* Sub Text */
+#kensei_contact .sub-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 586px;
+    margin: 0 auto;
+    letter-spacing: 0.7px;
+}
+
+#kensei_contact .block_contact_form .step .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+
+#kensei_contact .block_contact_form .step.active .label .text {
+    color: #EB5050;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#kensei_contact .block_contact_form .step .label .text {
+    color: #F39393;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+/* Info Circles */
+#kensei_contact .block_lesson .info-circles {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-bottom: 145px;
+}
+
+#kensei_contact .block_lesson .inner_lesson {
+    max-width: 1224px;
+}
+
+#kensei_contact .block_lesson .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 260px;
+    border: 2px dashed #F39393;
+    border-radius: 50%;
+    position: relative;
+    background: #FCE5E5;
+}
+
+#kensei_contact .block_lesson .section-title {
+    text-align: center;
+}
+
+#kensei_contact .block_lesson {
+    margin-top: 200px;
+}
+
+#kensei_contact .block_lesson .circle img {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+#kensei_contact .block_lesson img.img1.image {
+    width: 100px;
+    height: 218px;
+    left: -42px;
+    bottom: -51px;
+}
+
+#kensei_contact .block_lesson img.img2.image {
+    width: 146px;
+    height: 100px;
+    left: -41px;
+    bottom: -49px;
+}
+
+#kensei_contact .block_lesson img.img3.image {
+    width: 80px;
+    height: 136px;
+    right: -42px;
+    top: -42px;
+}
+
+#kensei_contact .block_lesson img.img4.image {
+    width: 140px;
+    height: 180px;
+    bottom: -50px;
+    right: -42px;
+}
+
+#kensei_contact .block_lesson .section-title-2 {
+    margin-bottom: 0;
+    padding-bottom: 4px;
+    line-height: 32px;
+    position: relative;
+    top: -15px;
+}
+
+#kensei_contact .block_lesson .section-title-2:before {
+    content: '';
+    width: 39%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    background: #F39393;
+}
+
+#kensei_contact .block_lesson .section-title-2:after {
+    content: '';
+    width: 39%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    background: #F39393;
+}
+
+#kensei_contact .block_lesson .wrapper_section2 {
+    background: #ffffff;
+    padding-bottom: 58px;
+    border-bottom: 1px solid #F39393;
+}
+
+#kensei_contact .block_lesson .circle p {
+    font-size: 26px;
+    font-weight: bold;
+    color: #EB5050;
+}
+
+/* Steps */
+#kensei_contact .block_lesson .steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#kensei_contact .block_lesson .steps .step {
+    position: relative;
+}
+
+#kensei_contact .block_lesson .steps .step:nth-child(4):after {
+    display: none;
+}
+
+#kensei_contact .block_lesson .steps .step:nth-child(3) .step-content {
+    padding: 20px 6px;
+}
+
+#kensei_contact .block_lesson .steps .step:nth-child(4) .step-content {
+    padding: 20px 10px;
+}
+
+#kensei_contact .block_lesson .steps .step:nth-child(3) .step-content .step-title {
+    padding-left: 25px;
+}
+
+#kensei_contact .block_lesson .steps .step:nth-child(4) .step-content .step-title {
+    padding-left: 25px;
+}
+
+#kensei_contact .block_lesson .step-content {
+    background-color: #FCE5E5;
+    padding: 20px;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+#kensei_contact .block_lesson .step:after {
+    content: '';
+    background: url("../images/kensei_contact/icon_5.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 17px;
+    height: 20px;
+    position: absolute;
+    right: -29px;
+    top: 59%;
+    transform: translateY(-50%);
+    z-index: 999999;
+}
+
+#kensei_contact .block_lesson .step-header {
+    background-color: #ffffff;
+    color: #F39393;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+    font-family: "dinosaur", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    top: 38px;
+    z-index: 999;
+}
+
+#kensei_contact .block_lesson .step-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#kensei_contact .block_lesson .step .step-title {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-align: center;
+    background: #F39393;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    left: -49px;
+    top: 39px;
+    padding: 3px 0;
+}
+
+#kensei_contact .block_lesson .step .text_desc {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+/* Tiêu đề chính */
+#kensei_contact .block_overview .section-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#kensei_contact .block_overview {
+    padding-top: 83px;
+}
+
+/* Hộp thông tin */
+#kensei_contact .block_overview .info-box {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 40px;
+    padding: 30px 61px;
+    padding-top: 52px;
+}
+
+#kensei_contact .block_overview .inner {
+    max-width: 1224px;
+}
+
+#kensei_contact .block_overview .info-row {
+    display: flex;
+    border-bottom: 1px solid #FCE5E5;
+    padding: 30px 0;
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 29px;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(2) {
+    padding-top: 26px;
+    padding-bottom: 29px;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(3) {
+    padding-top: 28px;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(2) .info-content {
+    font-size: 18px;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(3) .info-content {
+    font-size: 18px;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(4) {
+    padding-top: 49px;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(4) .info-content {
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(4) .info-content span {
+    position: relative;
+    left: 10px;
+    top: -6px;
+}
+
+#kensei_contact .block_overview .info-row:after {
+    content: '';
+    width: 24%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #F39393;
+}
+
+#kensei_contact .block_overview .info-row:nth-child(5):after {
+    display: none;
+}
+
+#kensei_contact .block_overview .info-row:last-child {
+    border-bottom: none;
+}
+
+#kensei_contact .block_overview .info-row:last-child .info-content strong {
+    font-size: 18px;
+}
+
+#kensei_contact .block_overview .info-row:last-child .info-content .p1 {
+    padding-top: 16px;
+}
+
+#kensei_contact .block_overview .info-row:last-child .info-content .p2 {
+    padding-top: 43px;
+}
+
+#kensei_contact .block_overview .info-label {
+    flex: 0 0 291px;
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 18px;
+}
+
+#kensei_contact .block_overview .info-content {
+    flex: 1;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#kensei_contact .block_overview .info-content .label {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4C4C4C;
+}
+
+#kensei_contact .block_overview .info-content .time {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4C4C4C;
+    font-family: "dinosaur", sans-serif;
+    line-height: 1;
+    padding-left: 12px;
+    letter-spacing: -0.5px;
+}
+
+#kensei_contact .block_overview .info-content .time .td {
+    font-size: 19px;
+}
+
+#kensei_contact .block_overview .info-content p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 17px;
+}
+
+#kensei_contact .block_overview .contact-number {
+    font-size: 40px;
+    font-weight: 700;
+    color: #4C4C4C;
+    font-family: "dinosaur", sans-serif;
+    line-height: 0.4;
+}
+
+#kensei_contact .block_overview .highlight {
+    text-decoration: underline;
+    text-decoration-thickness: 11px;
+    text-decoration-color: #FEF7F7;
+    text-underline-offset: -3px;
+    margin-top: -22px;
+}
+
+
+/* Tạo container */
+#kensei_contact .custom-select {
+    position: relative;
+    width: 218px;
+}
+
+#kensei_contact .custom-select select {
+    appearance: none; /* Loại bỏ mũi tên mặc định */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 19px 16px;
+    border: 1px solid #4C4C4C;
+    border-radius: 5px;
+    background: #fff url('../images/kensei_contact/icon_arrow_down.png') no-repeat right 10px center;
+    background-size: 25px; /* Kích thước icon */
+    cursor: pointer;
+}
+
+#kensei_contact .custom-select select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:last-child {
+    display: block;
+    margin-top: 113px;
+}
+
+#kensei_contact .block_contact_form .form-footer label {
+    padding-top: 0;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(2) {
+    margin-bottom: 63px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(3) {
+    margin-bottom: 58px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(4) {
+    margin-bottom: 44px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(6) {
+    padding-top: 25px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(7) {
+    margin-bottom: 60px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(8) {
+    margin-bottom: 61px;
+}
+
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(9) {
+    margin-bottom: 57px;
+}
+
+
+#kensei_contact .form_container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+#kensei_contact .block_contact_form .form-footer label {
+    flex: 0 0 300px;
+    align-items: center;
+}
+
+#kensei_contact .block_contact_form .form-footer p {
+    flex: 0 0 300px;
+    align-items: center;
+}
+
+#kensei_contact .block_contact_form .only_mb {
+    display: none;
+}
+
+#kensei_contact .only_pc {
+    display: block;
+}
+
+#kensei_contact .only_mb {
+    display: none;
+}
+
+#kensei_contact .block_lesson .circle p {
+    text-align: center;
+}
+
+#kensei_contact .block_contact_form .dob-group .custom-select {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+#kensei_contact .block_contact_form .form-container .form-row:nth-child(9) label.required:after {
+    display: none;
+}
+#kensei_contact #scrollToTopBtn {
+    display: none;
+}
+@media print, screen and (min-width: 768px) {
+
+    #kensei_contact .sp-br {
+        display: none;
+    }
+
+    #kensei_contact .pc-br {
+        display: inline;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    #scrollToTopBtn {
+        display: flex; /* Display the button on mobile/tablet screens */
+    }
+}
+/* Ensure it's always hidden on larger screens */
+@media (min-width: 768px) {
+    #scrollToTopBtn {
+        display: none !important; /* Force hide on PC */
+    }
+}
+
+@media print, screen and (max-width: 767px) {
+
+    #kensei_contact #scrollToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #FFFFFF;
+        color: #6D9EEB;
+        border: none;
+        border-radius: 50%;
+        font-size: 24px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.3s, transform 0.3s;
+    }
+
+    #kensei_contact #scrollToTopBtn:hover {
+        transform: scale(1.1);
+    }
+
+    #kensei_contact #scrollToTopBtn .text {
+        font-size: 12px;
+        font-family: "dinosaur", sans-serif;
+        position: relative;
+        line-height: 1.1;
+        padding-top: 11px;
+    }
+
+    #kensei_contact #scrollToTopBtn .text:before {
+        content: '';
+        background: url("../images/kensei_contact/ionic-ios-arrow-down.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+    }
+
+    #kensei_contact #scrollToTopBtn {
+        display: block;
+    }
+    #kensei_contact .only_pc {
+        display: none;
+    }
+
+    #kensei_contact .only_mb {
+        display: block;
+    }
+
+    #kensei_contact .block_lesson .steps {
+        display: block;
+        padding-top: 17px;
+    }
+
+    #kensei_contact .block_banner .inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #kensei_contact .block_banner {
+        background: none;
+        padding-top: 64px;
+    }
+
+    #kensei_contact .w_mb {
+        background: linear-gradient(0deg, rgba(254, 247, 247, 1) 19%, rgba(226, 236, 251, 1) 72%);
+    }
+
+    #kensei_contact .block_desc .content-text p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    #kensei_contact .block_contact_form .only_mb {
+        display: block;
+    }
+
+    #kensei_contact .block_desc .content-text {
+        padding-top: 3px;
+    }
+
+    #kensei_contact .block_desc .content-text:before {
+        width: 90px;
+        height: 119px;
+        left: 2px;
+        bottom: 27px;
+    }
+
+    #kensei_contact .block_desc .content-text:after {
+        width: 114px;
+        height: 84px;
+        right: 0;
+        bottom: 15px;
+    }
+
+    #kensei_contact .block_lesson .info-circles {
+        gap: 0;
+        margin-bottom: 113px;
+    }
+
+    #kensei_contact .block_lesson .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    #kensei_contact .block_lesson .circle:nth-child(2) {
+        margin-top: 96px;
+    }
+
+    #kensei_contact .block_lesson img.img2.image {
+        width: 65px;
+        height: auto;
+        left: 1px;
+        bottom: 67px;
+    }
+
+
+    #kensei_contact .block_lesson img.img3.image {
+        width: 42px;
+        height: auto;
+        right: -2px;
+        top: 63px;
+    }
+
+    #kensei_contact .block_lesson img.img4.image {
+        width: 69px;
+        height: auto;
+        bottom: -38px;
+        right: -32px;
+    }
+
+    #kensei_contact .block_lesson {
+        margin-top: 92px;
+    }
+
+    #kensei_contact .section-title {
+        font-size: 25px;
+    }
+
+    #kensei_contact .block_lesson .circle p {
+        font-size: 16px;
+    }
+
+    #kensei_contact .block_lesson img.img1.image {
+        width: 49px;
+        height: auto;
+        left: -32px;
+        bottom: -37px;
+    }
+
+    #kensei_contact .block_lesson .section-title {
+        margin-bottom: 26px;
+    }
+
+    #kensei_contact .block_lesson .section-title-2:before {
+        width: 26%;
+    }
+
+    #kensei_contact .block_lesson .section-title-2:after {
+        width: 25%;
+    }
+
+    #kensei_contact .block_lesson .step-content {
+        width: 190px;
+        height: 190px;
+        margin: 0 auto;
+        margin-top: -46px;
+    }
+
+    #kensei_contact .block_lesson .section-title-2 {
+        margin-bottom: -15px;
+        font-size: 25px;
+    }
+
+    #kensei_contact .sub-text {
+        font-size: 13px;
+    }
+
+    #kensei_contact .block_lesson .step .step-title {
+        font-size: 16px;
+        width: 300px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 26px;
+        padding: 3px 0;
+    }
+
+    #kensei_contact .block_lesson .step .text_desc {
+        font-size: 13px;
+        padding-top: 36px;
+        letter-spacing: -0.6px;
+        text-align: center;
+    }
+
+    #kensei_contact .block_lesson .step-header {
+        font-size: 20px;
+        width: 48px;
+        height: 48px;
+        line-height: 60px;
+        margin: 0 auto;
+        position: relative;
+        top: -19px;
+        z-index: 999;
+    }
+
+    #kensei_contact .block_lesson .steps .step {
+        position: relative;
+        margin-bottom: 32px;
+    }
+
+    #kensei_contact .block_lesson .steps .step:nth-child(3) .step-content .step-title {
+        padding-left: 0;
+    }
+
+    #kensei_contact .block_lesson .steps .step:nth-child(4) .step-content .step-title {
+        padding-left: 0;
+    }
+
+    #kensei_contact .block_lesson .step:after {
+        content: '';
+        background: url("../images/kensei_contact/icon_6.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 15px;
+        height: 20px;
+        position: absolute;
+        right: 50%;
+        top: auto;
+        bottom: -28px;
+        transform: translateX(47%);
+        z-index: 999999;
+    }
+
+    #kensei_contact .block_overview .info-row {
+        display: block;
+        border-bottom: none;
+        padding: 30px 0;
+        position: relative;
+        padding-top: 16px;
+        padding-bottom: 0;
+    }
+
+    #kensei_contact .block_overview .info-row:nth-child(2) {
+        padding-top: 14px;
+        padding-bottom: 10px;
+    }
+
+    #kensei_contact .block_overview .info-row:nth-child(3) {
+        padding-top: 4px;
+    }
+
+    #kensei_contact .block_overview .info-row:nth-child(4) {
+        padding-top: 14px;
+    }
+
+    #kensei_contact .block_overview .info-row:last-child .info-content strong {
+        font-size: 15px;
+    }
+
+    #kensei_contact .block_overview .info-row .info-label:after {
+        content: '';
+        width: 38%;
+        height: 1px;
+        position: absolute;
+        left: -9px;
+        bottom: -5%;
+        background: #F39393;
+    }
+
+    #kensei_contact .block_overview .info-content {
+        padding-top: 18px;
+    }
+
+    #kensei_contact .block_overview .info-box {
+        width: 100%;
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 0px 25px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #kensei_contact .block_overview .section-title {
+        font-size: 25px;
+        font-weight: bold;
+        color: #e74c3c;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #kensei_contact .block_overview .info-label {
+        flex: 0 0 291px;
+        font-weight: bold;
+        color: #e74c3c;
+        font-size: 14px;
+        border-bottom: 1px solid #FCE5E5;
+        position: relative;
+        padding-bottom: 7px;
+    }
+
+    #kensei_contact .block_overview .info-row:after {
+        display: none;
+    }
+
+    #kensei_contact .block_overview .contact-number {
+        font-size: 20px;
+    }
+
+    #kensei_contact .block_overview .info-content .label {
+        font-size: 16px;
+    }
+
+    #kensei_contact .block_overview .info-content .time {
+        font-size: 20px;
+        padding-left: 5px;
+        letter-spacing: -1.1px;
+    }
+
+    #kensei_contact .block_overview .info-row:nth-child(3) .info-content {
+        font-size: 15px;
+        padding-top: 14px;
+    }
+
+    kensei_contact .block_overview .info-content p {
+        font-size: 13px;
+        font-weight: 500;
+        padding-top: 8px;
+    }
+
+    #kensei_contact .block_overview .info-row:nth-child(2) .info-content {
+        font-size: 15px;
+        padding-top: 13px;
+    }
+
+    #kensei_contact .block_overview .info-content p {
+        font-size: 13px;
+        font-weight: 500;
+        padding-top: 8px;
+    }
+
+    kensei_contact .block_overview .info-row:last-child .info-content strong {
+        font-size: 15px;
+    }
+
+    #kensei_contact .block_overview .info-row:nth-child(4) .info-content span {
+        position: relative;
+        left: -1px;
+        top: 0;
+        font-size: 13px;
+    }
+
+    #kensei_contact .block_lesson .wrapper_section2 {
+        background: #ffffff;
+        padding-bottom: 0px;
+        border-bottom: 1px solid #F39393;
+    }
+
+    #kensei_contact .block_overview {
+        padding-top: 30px;
+    }
+
+    #kensei_contact .block_overview .info-box .info-content .cl_mb {
+        padding-left: 11px;
+    }
+
+    #kensei_contact .block_overview .info-row:last-child {
+        border-bottom: none;
+        padding-top: 12px;
+    }
+
+    #kensei_contact .block_overview .info-row:last-child .info-content {
+        padding-top: 14px;
+    }
+
+    #kensei_contact .block_overview .info-row:last-child .info-content .p1 {
+        padding-top: 0;
+    }
+
+    #kensei_contact .block_overview .info-row:last-child .info-content .p2 {
+        padding-top: 6px;
+    }
+
+    #kensei_contact .block_overview .highlight {
+        font-size: 13px;
+    }
+
+    #kensei_contact .block_contact_form .form_wrap {
+        margin: 30px auto;
+        padding: 47px 5px;
+        margin-top: 0;
+        padding-top: 26px;
+    }
+
+    #kensei_contact .sub-text {
+        letter-spacing: 0px;
+    }
+
+    #kensei_contact .block_contact_form .step.active .label .text {
+        color: #EB5050;
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+
+    #kensei_contact .block_contact_form .step .label {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+
+    #kensei_contact .block_contact_form .step .label .text {
+        font-size: 14px;
+    }
+
+    #kensei_contact .block_contact_form .step:before {
+        content: '';
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: #F39393;
+        position: absolute;
+        bottom: 49px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+
+    #kensei_contact .block_contact_form .steps:after {
+        content: '';
+        width: 59%;
+        position: absolute;
+        bottom: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: none;
+        height: 4px;
+        background-image: linear-gradient(to right, #F39393 50%, transparent 50%);
+        background-size: 6px 3px;
+        background-repeat: repeat-x;
+        background-color: #FEF7F7;
+    }
+
+    #kensei_contact .block_contact_form .step span {
+        font-weight: 500;
+        display: block;
+        font-size: 12px;
+        margin-bottom: 5px;
+        color: #4C4C4C;
+    }
+
+    #kensei_contact .block_contact_form .steps {
+        justify-content: space-between;
+        text-align: center;
+        max-width: 580px;
+        margin: 0 auto;
+        margin-bottom: 14px;
+        padding: 0 6px;
+        padding-top: 17px;
+        padding-right: 49px;
+    }
+
+    #kensei_contact .block_contact_form .steps {
+        margin-bottom: 34px;
+        padding-left: 31px;
+        padding-right: 48px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .input-group {
+        width: 100%;
+        padding-top: 12px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row {
+        margin-bottom: 18px;
+        display: block;
+    }
+
+    #kensei_contact .block_contact_form .dob-group {
+        display: block;
+        margin-top: 11px;
+    }
+
+    #kensei_contact .block_contact_form .form-row label {
+        font-size: 14px;
+    }
+
+    #kensei_contact .block_contact_form .required::after {
+        content: " 必須";
+        color: #fff;
+        background: #e74c3c;
+        font-size: 13px;
+        padding: 1px 3px;
+        margin-left: 15px;
+        border-radius: 3px;
+    }
+
+    #kensei_contact .block_contact_form .name-group .d-flex .label {
+        flex: 0 0 32px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(2) {
+        margin-bottom: 12px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex:nth-child(2) {
+        margin-bottom: 12px;
+    }
+
+    #kensei_contact .block_contact_form .group_address select {
+        padding: 13px 10px;
+    }
+
+    #kensei_contact .block_contact_form .name-group {
+        gap: 15px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(2) .name-group {
+        margin-top: 14px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(3) .name-group {
+        margin-top: 14px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(3) {
+        margin-bottom: 18px;
+    }
+
+    #kensei_contact .block_contact_form .dob-group select {
+        flex: 1;
+        padding: 14px 10px;
+        margin-bottom: 8px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .input-group .d-flex .label {
+        flex: 0 0 114px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    #kensei_contact .block_contact_form .dob-group .custom-select {
+        width: 163px;
+    }
+
+    #kensei_contact .custom-select select {
+        background-size: 14px;
+    }
+
+    #kensei_contact .block_contact_form .dob-group span {
+        font-size: 14px;
+        position: relative;
+        left: 15px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(4) {
+        margin-bottom: 11px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .radio-group label input {
+        flex: 0 0 14px;
+        margin: 0;
+        margin-right: 18px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .radio-group label {
+        display: flex;
+        flex: 0 0 60px;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(5) {
+        margin-bottom: 0px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(6) {
+        padding-top: 13px;
+    }
+
+    #kensei_contact .block_contact_form input, #kensei_contact .block_contact_form select, #kensei_contact .block_contact_form textarea {
+        width: 100%;
+        padding: 10px 10px;
+        border: 1px solid #4C4C4C;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .input-group .d-flex {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .input-group .d-flex .label {
+        flex: 0 0 63px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .input-group .d-flex input {
+        flex: 0 0 82%;
+    }
+
+    #kensei_contact .block_contact_form .form-row .group_address label {
+        flex: 0 0 83px;
+    }
+
+    #kensei_contact .block_contact_form .form-row .group_address .custom-select_address {
+        width: 53%;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .level_education .d-flex label {
+        flex: 0 0 83px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex:nth-child(1) {
+        margin-bottom: 2px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex:nth-child(2) {
+        margin-bottom: 5px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex:nth-child(3) {
+        margin-bottom: 5px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex:nth-child(4) {
+        margin-bottom: 5px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .level_education .width-400 {
+        width: 83%;
+        display: block;
+        padding: 13px 10px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(6) .group_address {
+        margin-top: 12px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex .label_text {
+        border-radius: 5px;
+        padding: 3px 7px;
+        margin-left: 12px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(7) {
+        margin-bottom: 14px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(8) label.required {
+        margin-bottom: 14px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row .level_education .d-flex {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+
+
+    #kensei_contact .block_contact_form .form-footer .d-flex {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        max-width: 585px;
+        margin: 0 auto;
+    }
+
+    #kensei_contact .block_contact_form .form-footer .d-flex label {
+        display: flex;
+        justify-content: center;
+    }
+
+    #kensei_contact .block_contact_form .form-footer p a {
+        padding-left: 0;
+        padding-right: 17px;
+    }
+
+
+    #kensei_contact .block_contact_form .submit-btn {
+        background: #F39393;
+        color: #fff;
+        padding: 12px 13px;
+        border: none;
+        border-radius: 16px;
+        cursor: pointer;
+        width: 59%;
+        margin-top: 21px;
+        font-size: 15px;
+        font-weight: 500;
+        position: relative;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #kensei_contact .block_contact_form .submit-btn:after {
+        right: 24px;
+        width: 35px;
+    }
+
+
+    #kensei_contact .block_contact_form .form-container .form-row .d-flex .desc {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 3px;
+        padding-left: 3px;
+        line-height: 1.4;
+    }
+
+    #kensei_contact .block_contact_form .form-row .group_address input.width-200 {
+        flex: 0 0 130px;
+        padding: 11px 10px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(8) {
+        margin-bottom: 21px;
+    }
+
+    #kensei_contact .block_contact_form .form-row .width-200-job {
+        width: 149px;
+        padding: 12px 10px;
+        margin-top: 10px;
+    }
+
+    #kensei_contact .block_contact_form .form-container .form-row:nth-child(9) {
+        margin-bottom: 15px;
+    }
+
+    #kensei_contact .block_overview .info-row:nth-child(4) .info-content {
+        padding-top: 16px;
+    }
+    #kensei_contact .block_desc:after {
+        width: 30px;
+        height: 30px;
+        bottom: -37px;
+    }
+}

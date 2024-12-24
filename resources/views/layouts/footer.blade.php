@@ -102,7 +102,7 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
                 @endif
                 @if(isset($frontendSettings['footer']['displayCopyright']) && $frontendSettings['footer']['displayCopyright'])
                 <p class="copyright">
-                    <small>&#169; {{$corporations[0]['corpFullName']??$frontendSettings['title'] ?? ''}} All rights reserved.</small>
+                    <small>&#169; {{$corporations[0]['corpFullName']??$frontendSettings['title'] ?? ''}}&nbsp;&nbsp;&nbsp;All rights reserved.</small>
                 </p>
                 @endif
             </div>

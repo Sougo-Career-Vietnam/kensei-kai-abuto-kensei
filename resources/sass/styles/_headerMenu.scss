@@ -55,7 +55,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     transition: all 0.3s ease;
     font-weight: 400;
     padding-top: 10px;
-
+    vertical-align: sub;
     img {
       max-width: 100%;
       height: auto;
@@ -103,6 +103,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       position: relative;
       margin-left: 20px;
       color: #6C7979;
+      font-family: "noto-sans-cjk-jp", sans-serif;
       @include xs {
         margin-left: 0;
         font-size: rem(14);

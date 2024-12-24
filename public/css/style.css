@@ -22,6 +22,24 @@
     gap: 25px; 
     z-index: 10;
 }
+#content #contentLayout #contentArea {
+  background: #F7F8FC !important;
+}
+#content #contentLayout #contentNav {
+  background: #E2ECFB !important
+} 
+.footerRemoteNavItem:nth-child(1) {
+  margin-right: 70px;
+}
+@media (max-width: 768px) { 
+
+  .footerRemoteNavItem:nth-child(1) {
+    margin-right: 0px;
+  }
+  #footer .footerBlankRemoteNavList {
+    flex-direction: column;
+  }
+}
 #top #topLayout #topNav {
   background: #E2ECFB;
 }

@@ -1,15 +1,14 @@
 /* General Styling */
-#workplace {
-    padding-top: 90px;
-}
-#content #contentLayout #contentArea {
-    background: #F7F8FC !important
-}
+
+
+
 #workplace .contentHeading {
     text-align: center;
     position: relative;
-    padding-bottom: 58px;
+    margin-bottom: 58px;
     line-height: 75px;
+    background: linear-gradient(to bottom, #E2ECFB, #F7F8FC);
+    padding-top: 90px;
 }
 #workplace .contentHeading::after {
     position: absolute;
