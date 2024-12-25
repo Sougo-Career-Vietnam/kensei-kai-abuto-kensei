@@ -97,7 +97,7 @@
 $(function() {
   var mySwiperTop = new Swiper('#webregist .mySwipertour', {
       loop: true,
-      speed: 1500000000000000000000000000000000000000000,
+      speed: 150000000000000000000000000000000000000000000000,
       autoplay: true,
       slidesPerView: 3,
       spaceBetween: 10,

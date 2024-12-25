@@ -21,13 +21,15 @@
                             <li class="item-sdider swiper-slide">
                             <a href="#p1" class="scroll">
                               <p class="number-reason">01</p>
-                                <picture class="image">
+                                <picture class="image-p">
                                   <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_01_sp.png')}}">
                                   <source media="(min-width: 768px)" srcset="{{asset('images/reason/reason_01_pc.png')}}">
                                   <img class="sizes" src="{{asset('images/reasonreason_01_pc.png')}}" alt="">
                                 </picture>
                                 <dl class="dl-slider">
                                   <dt class="dt-slider">介護ロボット<br class="pc-br">ICT導入</dt>
+                                  <dd class="dd-slider">最新技術で効率化や負担軽減し、<br>
+                                    働きやすさをサポートします。</dd>
                                     <dd class="dd-icon">
                                       <picture class="image">
                                         <source  srcset="{{asset('images/top/slider_icon_01.svg')}}">
@@ -40,13 +42,15 @@
                             <li class="item-sdider swiper-slide two">
                                 <a href="#p2" class="scroll">
                               <p class="number-reason">02</p>
-                                <picture class="image">
+                                <picture class="image-p">
                                   <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_02_sp.png')}}">
                                   <source media="(min-width: 768px)" srcset="{{asset('images/reason/reason_02_pc.png')}}">
                                   <img class="sizes" src="{{asset('images/reason/reason_02_pc.png')}}" alt="">
                                 </picture>
                                 <dl class="dl-slider">
                                   <dt class="dt-slider">未経験の方への<br class="pc-br">フォロー体制</dt>
+                                  <dd class="dd-slider">研修や勉強会で基礎から学び、<br>
+                                    安心して働くことができます。</dd>
                                     <dd class="dd-icon">
                                       <picture class="image">
                                         <source  srcset="{{asset('images/top/slider_icon_02.svg')}}">
@@ -59,13 +63,14 @@
                             <li class="item-sdider swiper-slide three">
                                 <a href="#p3" class="scroll">
                               <p class="number-reason">03</p>
-                                <picture class="image">
+                                <picture class="image-p">
                                   <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_03_sp.png')}}">
                                   <source media="(min-width: 768px)" srcset="{{asset('images/reason/reason_03_pc.png')}}">
                                   <img class="sizes" src="{{asset('images/reason/reason_03_pc.png')}}" alt="">
                                 </picture>
                                 <dl class="dl-slider">
                                   <dt class="dt-slider">給与と手当の<br class="pc-br">手厚い還元</dt>
+                                  <dd class="dd-slider">安定した収入と充実の手当で<br class="sp-br">長く働ける<br class="pc-br">
                                     <dd class="dd-icon">
                                       <picture class="image">
                                         <source  srcset="{{asset('images/top/slider_icon_03.svg')}}">

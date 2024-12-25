@@ -1223,5 +1223,15 @@
     font-size: 12px;
     margin-bottom: 20px;
     max-width: 245px;
-}
+  }
+  #reason .dl-slider .dt-slider {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 5px;
+  }
+  #reason .dl-slider .dd-slider {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 500;
+ }
 }

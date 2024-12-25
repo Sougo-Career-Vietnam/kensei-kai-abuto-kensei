@@ -30,6 +30,7 @@
 
 #page-reason .box-slider .item-sdider {
  transition: 0.5s;
+ /* overflow: hidden; */
 }
 #page-reason .box-slider .item-sdider::after {
     position: absolute;
@@ -68,6 +69,19 @@
 
 #page-reason .box-slider .item-sdider:hover::before {
     bottom: -12px;
+}
+
+#page-reason .box-slider .item-sdider  .image-p {
+    display: block;
+    overflow: hidden;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+#page-reason .box-slider .item-sdider  .image-p img {
+    transition: 0.5s;
+}
+#page-reason .box-slider .item-sdider:hover .image-p img{
+   transform: scale(1.1);
 }
 
 #page-reason .block-reason .inner-reason {
@@ -182,7 +196,7 @@
     border: 1px solid #ddd;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: relative;
-    padding: 55px 35px 70px 260px;
+    padding: 55px 37px 70px 260px;
     border-radius: 20px;
     max-height: 268px;
 }
@@ -212,14 +226,16 @@
     height: auto;
     top: 28px;
 }
-
+#page-reason #reason .item-sdider .number-reason {
+    z-index: 99
+}
 #page-reason .block-reason .text-en {
     position: absolute;
     font-size: 40px;
     color: #FCE5E5;
     font-weight: 700;
     right: 37px;
-    bottom: -5px;
+    bottom: -2px;
     font-family: dinosaur, sans-serif;
 }
 
@@ -390,9 +406,25 @@
     background: #E2ECFB;
 }
 
-
+#page-reason #reason .dl-slider .dd-slider {
+    display: none !important;
+}
 
 @media (max-width: 768px) {
+    #page-reason #reason .dl-slider .dd-slider {
+        display: block !important;
+    }
+    #page-reason .box-slider .item-sdider .image-p {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    #page-reason #reason .item-sdider .dl-slider {
+        padding: 30px 10px 25px 10px !important;
+    }
+    #page-reason .box-slider .item-sdider::before,
+    #page-reason .box-slider .item-sdider::after {
+        display: none;
+    }
     #page-reason .commonInner-slider {
         width: 100%;
     }
@@ -415,6 +447,9 @@
     #page-reason .block-reason .title-block .number {
         width: 75px;
         height: 75px;
+    }
+    #page-reason #reason .item-sdider .dl-slider {
+
     }
     #page-reason .block-reason .text-dt {
         width: calc(100% - 90px);
@@ -660,7 +695,12 @@
         color: #D9534F;
         margin-bottom: 10px;
     }
-
+    #page-reason .box-galary .info-box {
+        border-image: url(../images/reason/border2x_sp.png) 85 0 / 85px 0px / 0rem round;
+    }
+    #page-reason .block-reason .text-dt {
+        font-size: 14px;
+    }
 }
 
 

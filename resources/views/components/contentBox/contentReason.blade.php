@@ -99,7 +99,7 @@
   $(function() {
       var mySwiperTop = new Swiper('#reason .mySwiper', {
           loop: true,
-          speed: 1500000000000000000000000000000000000000000,
+          speed: 15000000000000000000000000000000000000000000000,
           autoplay: true,
           slidesPerView: 3,
           spaceBetween: 100,
