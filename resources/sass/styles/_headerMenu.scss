@@ -56,12 +56,18 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     font-weight: 400;
     padding-top: 10px;
     vertical-align: sub;
+    @include xs {
+      vertical-align:baseline
+    }
     img {
       max-width: 100%;
       height: auto;
       transition: opacity .3s;
       text-align: center;
       vertical-align: middle;
+      @media print, screen and (max-width: 374px){
+          width: 145px;
+      }
     }
 
     a {
@@ -105,8 +111,13 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       color: #6C7979;
       font-family: "noto-sans-cjk-jp", sans-serif;
       @include xs {
-        margin-left: 0;
+        margin-left: 10px;
         font-size: rem(14);
+      }
+      @media print, screen and (max-width: 374px){
+        margin-left: 3px;
+        font-size: rem(10);
+
       }
     }
     @include minWidthXs {

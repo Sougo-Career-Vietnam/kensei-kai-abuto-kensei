@@ -46,15 +46,6 @@
                       </a>
     
                   </div>
-
-
-
-
-
-
-
-
- 
                    {{--p1--}}
                   <section class="gallery" id="p1">   
                      <div class="box-title">

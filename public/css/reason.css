@@ -49,7 +49,7 @@
     background-image: url(../images/reason/reason_icon.svg);
     width: 16px;
     height: 14px;
-    left: calc(50% - 8px);
+    left: calc(50% - 7px);
     bottom: 10px;
     transition: 0.5s;
     z-index: 99;
@@ -64,11 +64,11 @@
 
 
 #page-reason .box-slider .item-sdider:hover::after {
-    bottom: -15px;
+    bottom: -12px;
 }
 
 #page-reason .box-slider .item-sdider:hover::before {
-    bottom: -12px;
+    bottom: -7px;
 }
 
 #page-reason .box-slider .item-sdider  .image-p {
@@ -613,7 +613,7 @@
         width: 100%;
         height: 89px;
         margin-bottom: 8px;
-        border-image: url(../images/reason/border2x_sp.png) 89 0 / 89px 0px / 0rem round;
+        border-image: url(../images/reason/border2x_sp.png) 89 0 / 84px 0px / 0rem round;
     }
     #page-reason .block-reason .box-meassge h2 {
         font-size: 15px;
@@ -671,9 +671,11 @@
     #page-reason .box-galary {
         padding: 10px 15px 0px 15px;
         border-radius: 10px;
-        max-width: calc(100% - 24px);
-        margin: auto;
+         max-width: calc(100% - 24px); 
+        margin: 0px 12px 0px 12px;
         margin-bottom: 30px;
+  
+
     }
     #page-reason .box-galary .item-galary {
         width: 100%;
