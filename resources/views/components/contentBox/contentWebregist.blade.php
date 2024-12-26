@@ -106,7 +106,10 @@ $(function() {
       autoResize: false,
       autoHeight: false,
       loopAdditionalSlides: 2,
-
+      pagination: {
+                  el: '.slider-pagination',
+                  clickable: true,
+              },
 
       breakpoints: {
           767: {
@@ -116,10 +119,10 @@ $(function() {
               centeredSlides: true,
               simulateTouch: true,
  
-                 pagination: {
-                  el: '.slider-pagination',
-                  clickable: true,
-              },
+              //    pagination: {
+              //     el: '.slider-pagination',
+              //     clickable: true,
+              // },
           }
       },
   });
