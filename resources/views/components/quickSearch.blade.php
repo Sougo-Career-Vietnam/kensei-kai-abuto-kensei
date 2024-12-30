@@ -89,7 +89,7 @@
                         @endswitch
                     @endforeach
 
-                    <span><button type="submit" id="{{ $fEntSearchAxisData->isCustomSearch ? 'quicksearchSubmitCustom' : 'quicksearchSubmit' }}">検 索</button></span>
+                    <span><button type="submit" id="{{ $fEntSearchAxisData->isCustomSearch ? 'quicksearchSubmitCustom' : 'quicksearchSubmit' }}">検索</button></span>
                     <input type="hidden" id="quick_search_url" value="{{$searchURL}}">
                 </div>
             </div>

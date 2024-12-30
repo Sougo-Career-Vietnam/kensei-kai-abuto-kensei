@@ -782,7 +782,7 @@ body {
 #kensei_contact .block_overview .section-title {
     font-size: 40px;
     font-weight: bold;
-    color: #e74c3c;
+    color: #EB5050;
     text-align: center;
     margin-bottom: 16px;
 }
@@ -878,8 +878,9 @@ body {
 #kensei_contact .block_overview .info-label {
     flex: 0 0 291px;
     font-weight: bold;
-    color: #e74c3c;
+    color: #EB5050;
     font-size: 18px;
+    
 }
 
 #kensei_contact .block_overview .info-content {

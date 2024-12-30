@@ -3,7 +3,7 @@
     <h2 class="contentHeading">
       <span class="ja">3つの働きやすい理由</span>
     </h2>
-    <p class="note-reason">
+    <p class="note-reason ">
       最新技術の導入や充実のサポート体制、手厚い待<br class="sp-br">遇で働きやすさを実現しています。<br class="pc-br">
 スタッフ一人<br class="sp-br">ひとりが安心して成長できる職場です。
     </p>
@@ -112,9 +112,9 @@
           breakpoints: {
               767: {
                   speed: 1500,
-                  slidesPerView: 1.5,
+                  slidesPerView: 1.5, 
                   spaceBetween: 40,
-                  centeredSlides: true,
+                  centeredSlides: true,   
                   simulateTouch: true,
                   navigation: {
                     nextEl: '.slider__button-next',

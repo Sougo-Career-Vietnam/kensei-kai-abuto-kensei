@@ -8,7 +8,7 @@
 
         {{--html埋め込み部分 start--}}
         <link rel="stylesheet" media="all" href="./css/reason.css"/>
-        <script type="text/javascript" src="./js/page.js"></script>
+        {{-- <script type="text/javascript" src="./js/page.js"></script> --}}
         <main id="main_wrap">
             <section id="reason">
                 <h2 class="title-reason">

@@ -85,7 +85,7 @@
 #top #topMvSlider {
     position: relative;
 }
-#top #topMvSlider .vertical-text-01 {
+#top #topMvSlider .vertical-text-01 { 
     writing-mode: vertical-rl;
     text-orientation: mixed;
     line-height: 1.5;
@@ -315,6 +315,8 @@
     text-align: center;
     line-height: 32px;
     margin-bottom: 55px;
+    font-family: "noto-sans-cjk-jp", sans-serif;
+    font-weight: 500;
 }
 
 
@@ -454,6 +456,7 @@
   color: white;
   border-bottom-left-radius: 80px;
   border-bottom-right-radius: 80px;
+ 
 }
 #reason .item-sdider.two .dl-slider{
   background: #E8D37B;
@@ -492,11 +495,15 @@
   margin-bottom: 20px;
   z-index: 999;
   position: relative;
+  font-family: "noto-sans-cjk-jp", sans-serif;
+  font-weight: 600;
 }
 #reason .dl-slider .dd-slider {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+  font-family: "noto-sans-cjk-jp", sans-serif;
+
 }
 
 #reason .slick-dots li {
@@ -542,6 +549,7 @@
   height: 12.5px;
   top: 25px;
   right: 38px;
+  transition: 0.5s;
 }
 
 #top .box-link-top .a-link::before {
@@ -559,7 +567,7 @@
 }
 
 #top .box-link-top .a-link:hover::after {
-  
+  right: 36px;
   background-image: url(../images/top/icon_row_link_hover.svg);
 }
 
@@ -677,6 +685,7 @@
     margin-bottom: 30px;
     padding: 0px 15px;
     text-align: left;
+
   }
   #reason .box-slider .arrow-prev.two {
     transform: rotate(-180deg);
@@ -792,6 +801,8 @@
   line-height: 32px;
   padding-right: 30px;
   margin-bottom: 57px;
+  font-family: "noto-sans-cjk-jp", sans-serif;
+ font-weight: 500;
 }
 
 #workplace .info-workplace {
@@ -907,6 +918,8 @@
   max-width: 800px;
   margin: auto;
   margin-bottom: 20px;
+  font-family: "noto-sans-cjk-jp", sans-serif;
+  font-weight: 500;
 }
 
 #webregist .line-text::before,
@@ -1081,7 +1094,8 @@
   }
   #top .box-link-top .a-link.webregist::after {
     background-image: url(../images/top/icon_row_link_pig.svg);
-    right: 47px;
+    right: 46px;
+    transition: 0.5s;
   }
   #top .box-link-top .a-link.webregist::before {
   background: #FCE5E5;
@@ -1106,7 +1120,12 @@
 
   #top .box-link-top .a-link.webregist:hover::after {
     background-image: url(../images/top/icon_row_link_hover.svg);
+    right: 44px;
 }
+
+
+
+
 
 
 

@@ -45,7 +45,7 @@
   .en,
   .ja {
     display: block;
-    color: $recommendJobTitleColor;
+    color: #1B5EC7;
     font-weight: 500;
     line-height: 1;
   }
@@ -55,19 +55,21 @@
     font-style: normal;
     letter-spacing: 0.02em;
     margin-bottom: 5px;
-    font-size: rem(38);
+    font-size: rem(15);
+    color: #6D9EEB;
     @include minWidthXs {
-      font-size: rem(54);
+      font-size: rem(20);
       margin-bottom: 24px;
     }
   }
   .ja {
     font-family: $fontZen;
-    font-size: rem(15);
+    font-size: rem(40);
     font-weight: 700;
     letter-spacing: 0.02em;
+    margin-bottom: 10px;
     @include minWidthXs {
-      font-size: rem(22);
+      font-size: rem(25);
     }
   }
 }
@@ -77,6 +79,9 @@
   width: 80%;
   max-width: 280px;
   margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+
   @include minWidthXs {
     width: calc(100% - 24px);
     //max-width: $contentWidth;
@@ -96,10 +101,18 @@
     border-top-right-radius:16px;
     @include minWidthXs {
       width: 300px;
+      img {
+        width: 100%;
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+        height: 100%;
+        object-fit: cover;
+      }
       &:hover {
         .recommendJobImg {
           img {
-            transform: scale(1.05) rotate(.1deg);
+            transform: scale(1) rotate(.1deg);
+      
           }
         }
 
@@ -185,7 +198,7 @@
   position: relative;
   min-height: 178px;
   overflow: hidden;
-  padding-bottom: 30px;
+  // padding-bottom: 30px;
   border-bottom-left-radius: 16px;
   border-top-right-radius: 16px;
   @include minWidthXs{
@@ -213,15 +226,17 @@
 .recommendJobInfo {
   min-height: calc(100% - (200px + 40px)); //高さ固定用プロパティ　(img + ボタン)を除いた高さ
   padding: 10px 16px 25px;
+  font-family: "noto-sans-cjk-jp", sans-serif !important;
+  font-weight: 500 !important;
   position: relative;
   @include minWidthXs{
-    padding: 10px 20px 30px;
+    padding: 10px 20px 0px;
   }
   
 
   .jobTitle {
     margin-bottom: 14px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #E1DEDA;
     font-size: rem(14);

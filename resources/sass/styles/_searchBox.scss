@@ -45,7 +45,7 @@
       letter-spacing: 0.08em;
       margin-bottom: 10px;
       font-size: rem(20);
-      line-height: 2;
+      line-height: 2.8;
       @include xs {
         font-size: rem(15);
       }
@@ -113,6 +113,7 @@
                   border-right: 2px solid $searchBoxTabActiveBgColor;
                   border-bottom: 2px solid $searchBoxTabActiveBgColor;
                   background: $searchBoxTabInactiveBgColor;
+
                   @include minWidthXs {
                     transition: all .3s;
                     &:hover {
@@ -246,7 +247,8 @@
     h4 {
       padding: 10px 20px;
       //font-weight: 400;
-      font-weight: 500;
+      font-family: "noto-sans-cjk-jp", sans-serif !important;
+      font-weight: 500 !important;
     }
   }
 
@@ -696,6 +698,8 @@
     div > .topmod1-bc,
     div > .topmod1-area,
     div > .topmod2-jobbc { //エリア名見出しスタイル
+      font-family: "noto-sans-cjk-jp", sans-serif !important;
+      font-weight: 500 !important;
       @include searchBtnHeaderA(); //検索項目見出しスタイル ボーダーなし
       margin: 12px 0 8px;
       padding: 0;
@@ -719,6 +723,8 @@
         .topmod1-city,
         .topmod2-job,
         .topmod3-koyo { //県名項目スタイル
+          font-family: "noto-sans-cjk-jp", sans-serif !important;
+          font-weight: 500 !important;
           @include searchBtnItemsA(); //検索項目ボタンスタイル 小さ目版
         }
         a {

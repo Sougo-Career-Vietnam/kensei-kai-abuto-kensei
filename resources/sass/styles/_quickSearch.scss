@@ -124,6 +124,24 @@ searchQuick　クイックサーチ
             width: 100%;
           }
         }
+        select {
+          appearance: none; /* Ẩn trên các trình duyệt hỗ trợ */
+          -webkit-appearance: none; /* Ẩn trên Safari và Chrome */
+          -moz-appearance: none; 
+
+          &:focus {
+            outline: none;
+          }
+        }
+   
+
+
+
+
+
+
+
+
 
         input {
           background-image: none;

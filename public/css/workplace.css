@@ -33,6 +33,7 @@
     font-size: 40px;
     color: #1B5EC7;
     display: block;
+    font-family:zen-maru-gothic, sans-serif 
 }
 #workplace  .menu__list {
     display: flex;
@@ -106,6 +107,7 @@
     font-size: 26px;
     color: #1B5EC7;
     margin-bottom: 5px;
+    font-weight: 700;
 }
 #workplace  .dd-slider {
     font-size: 18px;
@@ -124,6 +126,7 @@
     font-size: 26px;
     color: #1B5EC7;
     margin-bottom: 5px;
+    font-family:zen-maru-gothic, sans-serif 
 }
 #workplace .title-sub {
     margin-bottom: 20px;
@@ -142,8 +145,9 @@
 
 #workplace .title-sub .text-sub-02 {
     display: inline-block;
-    color: #6D9EEB;
+    color:  #1B5EC7;
     font-size: 16px;
+   
 }
 #workplace .contet-text {
     font-size: 16px;

@@ -13,7 +13,7 @@
     font-size: 40px;
     color: #1B5EC7;
     background: linear-gradient(to bottom, #E2ECFB, #F7F8FC);
-
+    font-family:zen-maru-gothic, sans-serif !important
 }
 #page-reason #reason .title-reason::after {
     position: absolute;
@@ -120,6 +120,7 @@
     font-size: 20px;
     color: #D9534F;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 #page-reason .dl-list .dd-list {
@@ -193,8 +194,8 @@
     margin: 0 auto;
     background: #fff;
     padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     position: relative;
     padding: 55px 37px 70px 260px;
     border-radius: 20px;

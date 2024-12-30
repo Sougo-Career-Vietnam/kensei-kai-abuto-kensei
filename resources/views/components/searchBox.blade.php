@@ -267,7 +267,7 @@
                                                 <label class="is-vishidden">キーワードを入力</label>
                                                 <input class="search-form__search" id="topSearchWord" type="search" name="freeword" size="40" required="required" placeholder="キーワードを入力" />
                                                 <input type="hidden" id="word_search_url" value="{{route('search.query')}}" />
-                                                <button type="submit" value="検 索" class="searchWordBtn search-form__submit">検 索</button>
+                                                <button type="submit" value="検 索" class="searchWordBtn search-form__submit">検索</button>
                                             </div>
                                         </div>
                                     </div>

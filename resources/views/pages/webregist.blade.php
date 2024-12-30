@@ -7,7 +7,7 @@
     <div id="contentArea">
 
         <link rel="stylesheet" media="all" href="./css/webregist.css"/>
-        <script type="text/javascript" src="./js/page.js"></script>
+        {{-- <script type="text/javascript" src="./js/page.js"></script> --}}
         <div id="kensei_contact" class="kensei_contact">
             <div class="w_mb js-fadein">
                 <div class="block_banner">

@@ -106,9 +106,12 @@
   a {
     color: $bgBaseTextColor;
     transition: opacity .3s;
+    font-family: "noto-sans-cjk-jp", sans-serif;
+    font-weight: 500;
     @include minWidthXs {
       &:hover {
-        opacity: .5;
+        // opacity: .5;
+        color: #1B5EC7;
       }
     }
   }
