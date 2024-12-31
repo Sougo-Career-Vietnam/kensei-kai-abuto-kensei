@@ -292,7 +292,7 @@
                                                 <label>都道府県</label>
                                                 <div class="custom-select custom-select_address">
                                                     <select class="width-400">
-                                                        <option>都道府県</option>
+                                                        <option>選択してください</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -300,7 +300,7 @@
                                                 <label>市区町村</label>
                                                 <div class="custom-select custom-select_address">
                                                     <select class="width-400">
-                                                        <option>市区町村</option>
+                                                        <option>選択してください</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -389,6 +389,8 @@
                                             </p>
                                         </div>
                                         <button type="submit" class="submit-btn">内容を確認する</button>
+
+                                        
                                     </div>
                                 </div>
                             </div>

@@ -427,7 +427,7 @@
 
 
 
-
+{{-- 
     <script>
               
         $(function() {
@@ -446,6 +446,10 @@
                 breakpoints: {
                     767: {
                         speed: 1500,
+                        autoplay: {
+                          delay: 3000,// スライド間の間隔（3000=3秒）
+                  
+                        },
                         slidesPerView: 1.5,
                         spaceBetween: 40,
                         centeredSlides: true,
@@ -462,8 +466,45 @@
         
         
         });
-        </script>
+        </script> --}}
 
+<script>
 
+  $(function() {
+      var mySwiperTop = new Swiper('#reason .mySwiper', {
+          loop: true,
+          speed: 15000000000000000000000000000000000000000000000,
+          slidesPerView: 3,
+          spaceBetween: 100,
+          centeredSlides: false,
+          simulateTouch: false,
+          autoResize: true,
+          autoHeight: false,
+          loopAdditionalSlides: 2,
+          autoplay: {
+                    delay: 3000,// スライド間の間隔（3000=3秒）
+             
+                },
+          breakpoints: {
+              767: {
+                  speed: 1500,
+                  slidesPerView: 1.5, 
+                  spaceBetween: 40,
+                  centeredSlides: true,   
+                  simulateTouch: true,
+                  navigation: {
+                    nextEl: '.slider__button-next',
+                    prevEl: '.slider__button-prev',
+                },
+     
+              }
+          },
+      });
+  
+      console.log(mySwiperTop);
+  
+  
+  });
+  </script>
 
 @endsection

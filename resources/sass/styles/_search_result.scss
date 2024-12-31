@@ -58,6 +58,7 @@ section.jobSummary {
           h3 {
             margin: 0;
             padding: 0;
+            color: #1B5EC7;
             //line-height: 120%;
             font-size:$fontSizeXLarge;//1.125rem
             @include xs {
@@ -139,10 +140,11 @@ section.jobSummary {
       margin: 0 12px;
       div.catch_copy {
         //求人案件見出しキャッチコピー
-        font-weight: 500;
+        font-weight: 400;
         color: $baseTextColor;
         line-height: 1.4rem;
         padding: 5px 0 10px 0;
+        font-size: 18px;
       }
     }
     //summaryCatchArea
@@ -193,13 +195,14 @@ section.jobSummary {
               background: none repeat scroll 0 0 $gray;
               color: $black;
               display: block;
-              font-size: $fontSizeXxSmall;//11px
+              font-size: 14px;//11px
               padding: 2px 0;
               text-align: center;
               line-height: 1.2rem;
               width: 15%;
               min-width: 60px;
               float: left;
+              font-weight: 400;
               @include xs {
                 min-width: 70px;
                 margin: 0 0 5px 0;
@@ -244,7 +247,7 @@ section.jobSummary {
       .goJob {
         @extend %btnGrayBase;
         display: block;
-        background: #1B5EC7;
+        background: #6D9EEB ;
         color: $goDetailBtnTextColor;
         cursor: pointer;
         transition: all .3s;

@@ -737,19 +737,20 @@
         .checkbox-label.agree { //個人情報同意チェックボックス
           position: relative;
           left: 17px;
-
+          font-size: 18px;
+          font-weight: 400;
           &::before {
             content: "";
             display: inline-block;
             position: absolute;
-            top: 0;
-            bottom: 0;
-            left: -33px;
-            width: 24px;
-            height: 24px;
+            top: 3px;
+            bottom: 0px;
+            left: -25px;
+            width: 16px;
+            height: 16px;
             margin: auto;
-            border-radius: 2px;
-            background: #E5EAFB;
+            border: 1px solid;
+          
           }
 
           &::after {
@@ -784,14 +785,15 @@
       a.anc_kojin_text {
         border: none;
         display: inline-block;
-        font-size: $fontSizeLarge; //100%;
-        font-weight: bold;
+        font-size: 18px; //100%;
+        font-weight: 500;
         margin: 0 10px 0 0;
         padding: 0 0 0 40px;
         position: relative;
         text-align: center;
         text-decoration: underline;
         @include xs {
+          font-size: $fontSizeLarge;
           margin: 0;
           padding: 0;
         }

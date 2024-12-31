@@ -235,7 +235,7 @@
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #workplace {
         padding-top: 0px;
         padding-bottom: 20px;
@@ -366,4 +366,10 @@
 
 @media (max-width: 374px) {
     /* Add specific styles for smaller screens if needed */
+    #workplace .slider__controls img {
+        width: 47px;
+    }
+    #workplace .slider__controls {
+        top: 58%;
+    }
 }

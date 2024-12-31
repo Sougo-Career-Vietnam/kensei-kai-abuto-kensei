@@ -83,6 +83,7 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
             $('#mvSlider .mvMultiple .swiper-slide').on('touchmove', function(){
                 return true;
             });
+
         });
     </script>
 </div>

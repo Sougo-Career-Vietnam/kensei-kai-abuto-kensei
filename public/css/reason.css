@@ -411,7 +411,7 @@
     display: none !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #page-reason #reason .dl-slider .dd-slider {
         display: block !important;
     }
@@ -497,7 +497,7 @@
         margin: auto;
     }
     #page-reason .box-meassge {
-        max-width: 351px;
+        max-width: 94%;
         margin: 0 auto;
         background: #fff;
         padding: 20px;
@@ -694,7 +694,7 @@
       
     }
     #page-reason .block-reason .box-meassge h2 {
-        font-size: 13px;
+        font-size: 12px;
         color: #D9534F;
         margin-bottom: 10px;
     }
@@ -702,7 +702,10 @@
         border-image: url(../images/reason/border2x_sp.png) 85 0 / 85px 0px / 0rem round;
     }
     #page-reason .block-reason .text-dt {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    #page-reason .box-galary .text-galary {
+        font-size: 9px;
     }
 }
 

@@ -106,6 +106,7 @@
           max-width: $contentWidth;
           margin: 0 auto 30px auto;
           overflow: hidden;
+       
           @include xs {
             width: calc(100% - 24px)
           }

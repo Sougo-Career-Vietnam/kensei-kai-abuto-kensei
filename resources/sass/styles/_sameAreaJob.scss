@@ -59,8 +59,8 @@ div#box_sameAreaJobContent {
         line-height: 1.5;
         overflow: hidden;
         height: auto;
-        font-weight: 600;
-        color: $sameAreaJobTitleColor;
+        font-weight: 500;
+        color: #1B5EC7;
         @include xs {
           font-size: 1.3rem;
         }

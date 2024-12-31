@@ -346,9 +346,12 @@ body {
 
 #kensei_contact .block_contact_form .dob-group select {
     flex: 1;
-    background: white;
+    /* background: white; */
+    color: #D4D4D4;
 }
-
+#kensei_contact .block_contact_form  select {
+    color: #D4D4D4;
+}
 #kensei_contact .block_contact_form .radio-group label {
     margin-right: 15px;
 }
@@ -398,7 +401,9 @@ body {
     padding-left: 42px;
 }
 
-#kensei_contact .block_contact_form .submit-btn:after {
+
+
+/* #kensei_contact .block_contact_form .submit-btn:after {
     content: '';
     background: url("../images/kensei_contact/icon_arrow_right.png");
     background-repeat: no-repeat;
@@ -410,8 +415,37 @@ body {
     right: 40px;
     top: 50%;
     transform: translateY(-50%);
+} */
+#kensei_contact .block_contact_form .submit-btn::after {
+    content: "";
+    position: absolute;
+    width: 32.5px;
+    height: 12.5px;
+    top: 25px;
+    background-image: url(../images/top/icon_row_link_pig.svg);
+    right: 46px;
+    transition: 0.5s;
 }
-
+#kensei_contact .block_contact_form .submit-btn::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    top: 20px;
+    background: #FCE5E5;
+    right: 40px;
+}
+#kensei_contact .block_contact_form .submit-btn:hover {
+    background: #EB5050;
+}
+#kensei_contact .block_contact_form .submit-btn:hover::before {
+    background: #F39393;
+}
+#kensei_contact .block_contact_form .submit-btn:hover:hover::after {
+    background-image: url(../images/top/icon_row_link_hover.svg);
+    right: 44px;
+}
 
 #kensei_contact .block_contact_form .form-container .form-row .d-flex .desc {
     font-size: 16px;
@@ -435,9 +469,7 @@ body {
     outline: none;
 }
 
-#kensei_contact .block_contact_form .submit-btn:hover {
-    background: #c0392b;
-}
+
 
 
 #kensei_contact .block_desc .content-block {
@@ -1761,7 +1793,7 @@ body {
         border: none;
         border-radius: 16px;
         cursor: pointer;
-        width: 59%;
+        width: 200px;
         margin-top: 21px;
         font-size: 15px;
         font-weight: 500;
@@ -1810,5 +1842,34 @@ body {
         width: 30px;
         height: 30px;
         bottom: -37px;
+    }
+
+    #kensei_contact .block_contact_form .submit-btn::before {
+        top: 13px;
+        right: 20px;
+    }
+    #kensei_contact .block_contact_form .submit-btn:after {
+        right: 26px;
+        width: 35px;
+        top: 18px;
+    }
+}
+
+
+
+@media (max-width: 374px) {
+    #kensei_contact .block_desc .content-text p {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    #kensei_contact .block_lesson .circle {
+        width: 85px;
+        height: 85px;
+    }
+    #kensei_contact .block_contact_form .form-row .group_address label {
+        flex: 0 0 74px;
+    }
+    #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex .label_text {
+        font-size: 9px;
     }
 }

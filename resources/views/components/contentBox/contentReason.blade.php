@@ -93,14 +93,13 @@
 </section>
 
 
-
+  
 <script>
 
   $(function() {
       var mySwiperTop = new Swiper('#reason .mySwiper', {
           loop: true,
           speed: 15000000000000000000000000000000000000000000000,
-          autoplay: true,
           slidesPerView: 3,
           spaceBetween: 100,
           centeredSlides: false,
@@ -108,7 +107,10 @@
           autoResize: false,
           autoHeight: false,
           loopAdditionalSlides: 2,
-
+          autoplay: {
+                    delay: 3000,// スライド間の間隔（3000=3秒）
+             
+                },
           breakpoints: {
               767: {
                   speed: 1500,
@@ -120,6 +122,7 @@
                     nextEl: '.slider__button-next',
                     prevEl: '.slider__button-prev',
                 },
+     
               }
           },
       });
@@ -129,4 +132,5 @@
   
   });
   </script>
+  
   

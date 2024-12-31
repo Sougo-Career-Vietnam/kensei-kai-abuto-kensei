@@ -41,7 +41,7 @@ footer
     display: none;
     position: fixed;
     right: 20px;
-    bottom: 10px;
+    bottom: 50px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -239,7 +239,7 @@ footer
         @include xs {
             font-size: rem(13);
             font-family: "noto-sans-cjk-jp", sans-serif;
-            margin-top: 8px;
+            margin-top: 7px;
         }
     }
   }

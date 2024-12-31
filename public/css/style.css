@@ -31,7 +31,7 @@
 .footerRemoteNavItem:nth-child(1) {
   margin-right: 70px;
 }
-@media (max-width: 768px) { 
+@media (max-width: 767px) {
 
   .footerRemoteNavItem:nth-child(1) {
     margin-right: 0px;
@@ -163,7 +163,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .sp-br {
         display: block;
     }
@@ -592,7 +592,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #top .commontopinner {
     width: 100%;
   }
@@ -810,14 +810,23 @@
   margin: auto;
   padding: 0px 20px;
 }
+
 @media (max-width: 1500px) {
 
-#workplace .block-workplace {
-  height: auto;
-}
+  #workplace .block-workplace {
+    height: auto;
+  }
+  #workplace .img-position .img-icon-work {
+    position: absolute;
+    left: -160px;
+    bottom: -50px;
+    width: 240px;
+    height: 210px;
+    transform: scale(0.8);
+  }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   #workplace .img-mobi {
     display: block;
@@ -1129,7 +1138,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   #webregist .slider__controls { 
       display: block;
