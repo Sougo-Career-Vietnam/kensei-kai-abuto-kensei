@@ -159,8 +159,11 @@
       &::before {
        width: 32px;
        height: 32px;
-       top:-5px;
+       top:-5px !important;
        right: -55px;
+       @include xs { 
+        top:-10px !important;
+       }
       }
     }
   }
@@ -189,6 +192,9 @@
       height: 13.5px;
       top: 5px;
       right: -43px;
+      @include xs {
+        top: -2px;
+      }
     }
     &::before {
 
@@ -200,7 +206,13 @@
       border-radius: 50%;
       top: 0px;
       right: -50px;
+      @include xs {
+        top: -6px ;
+ 
+      }
     }
+
+
 
 
     @include minWidthXs {
