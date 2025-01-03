@@ -420,53 +420,8 @@
         {{--html埋め込み部分 end--}}
 
 
-
-
     </div>
 
-
-
-
-{{-- 
-    <script>
-              
-        $(function() {
-            var mySwiperreason = new Swiper('#reason .mySwiper', {
-                loop: true,
-                speed: 1500000000000000000000000000000000000000000,
-                aureasonlay: true,
-                slidesPerView: 3,
-                spaceBetween: 100,
-                centeredSlides: false,
-                simulateTouch: false,
-                autoResize: false,
-                autoHeight: false,
-                loopAdditionalSlides: 2,
-      
-                breakpoints: {
-                    767: {
-                        speed: 1500,
-                        autoplay: {
-                          delay: 3000,// スライド間の間隔（3000=3秒）
-                  
-                        },
-                        slidesPerView: 1.5,
-                        spaceBetween: 40,
-                        centeredSlides: true,
-                        simulateTouch: true,
-                        navigation: {
-                          nextEl: '.slider__button-next',
-                          prevEl: '.slider__button-prev',
-                      },
-                    }
-                },
-            });
-        
-            console.log(mySwiperreason);
-        
-        
-        });
-        </script> --}}
 
 <script>
 

@@ -116,6 +116,7 @@
 }
 #top #mvSlider .mvWrapper .mvInner .mvPicture {
     min-width: auto !important;
+    cursor: pointer;
 }
 
 
@@ -754,6 +755,9 @@
   #top .box-link-top.two {
     justify-content: center;
   }
+  #top .box-link-top .a-link:hover::before {
+    top: 7px;
+  }
   
 }
 
@@ -1232,6 +1236,16 @@
     margin-bottom: 50px !important;
     margin-top: 20px !important
   }
+
+  #top .box-link-top .a-link.webregist:hover::before {
+    background: #F39393;
+    right: 20px;
+    top:12px
+  }
+  #top .box-link-top .a-link.webregist:hover::after {
+    background-image: url(../images/top/icon_row_link_hover.svg);
+    right: 23px;
+}
 }
 
 

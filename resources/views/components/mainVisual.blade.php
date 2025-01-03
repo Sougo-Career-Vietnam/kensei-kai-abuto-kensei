@@ -102,6 +102,11 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
                 resizeReInit: true,
                 watchOverflow: true
             });
+            // Sự kiện click vào slide
+        $('#mvSlider .swiper-slide').on('click', function () {
+            var index = $(this).index(); // Lấy vị trí của slide được click
+            mySwiperTop.slideToLoop(index); // Chuyển đến slide tương ứng (hỗ trợ loop)
+        });
         });
     </script>
 </div>

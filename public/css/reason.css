@@ -685,9 +685,9 @@
 }
 
 @media (max-width: 374px) {
-    #page-reason .box-meassge  {
+    /* #page-reason .box-meassge  {
         max-width: 296px;
-    }
+    } */
     #page-reason .box-meassge .text {
         font-size: 12px;
         line-height: 24px;
@@ -706,6 +706,9 @@
     }
     #page-reason .box-galary .text-galary {
         font-size: 9px;
+    }
+    .image-float {
+        width: 55px;
     }
 }
 

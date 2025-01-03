@@ -1872,4 +1872,11 @@ body {
     #kensei_contact .block_contact_form .form-container .form-row .group_address .d-flex .label_text {
         font-size: 9px;
     }
+    #kensei_contact .block_desc .content-text:before {
+        width: 85px;
+    }
+    #kensei_contact .block_desc .content-text:after {
+        width: 100px;
+
+    }
 }
