@@ -49,9 +49,13 @@ footer
     @include minWidthXs {
       width: 80px;
       height: 80px;
-      right: 230px;
-      bottom: 20px;
+      right: 30px;
+      bottom: 40px;
     }
+    @media screen and (min-width: 1600px) {
+      right: 230px;
+    }
+
   }
 
   .pageTopAnchor {
