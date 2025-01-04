@@ -959,7 +959,7 @@ body {
 #kensei_contact .block_overview .highlight {
     text-decoration: underline;
     text-decoration-thickness: 11px;
-    text-decoration-color: #FEF7F7;
+    text-decoration-color: #FCE5E5;
     text-underline-offset: -3px;
     margin-top: -22px;
 }
@@ -1878,5 +1878,12 @@ body {
     #kensei_contact .block_desc .content-text:after {
         width: 100px;
 
+    }
+    #kensei_contact .block_lesson .circle p {
+        font-size: 13px;
+    }
+    #kensei_contact .block_contact_form .steps:after {
+        width: 52%;
+        bottom: 51px;
     }
 }

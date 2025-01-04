@@ -6,6 +6,12 @@ class LocalMenuSettings
     const HEADER_LIST = array(
 
         [
+            "text" => "トップページ",
+            "url" => "",
+            "class" => "",
+            "target" => "",
+        ],
+        [
             "text" => "働きやすい理由",
             "url" => "/reason",
             "class" => "",

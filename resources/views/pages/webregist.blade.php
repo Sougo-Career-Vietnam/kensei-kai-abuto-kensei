@@ -344,7 +344,7 @@
                                                 <label>学校区分</label>
                                                 <div class="custom-select">
                                                     <select class="width-400">
-                                                        <option>学校区分</option>
+                                                        <option>選択してください</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -352,7 +352,7 @@
                                                 <label>卒業年度</label>
                                                 <div class="custom-select">
                                                     <select class="width-400">
-                                                        <option>卒業年度</option>
+                                                        <option>選択してください</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -360,7 +360,7 @@
                                                 <label>状態</label>
                                                 <div class="custom-select">
                                                     <select class="width-400">
-                                                        <option>状態</option>
+                                                        <option>選択してください</option>
                                                     </select>
                                                 </div>
                                             </div>

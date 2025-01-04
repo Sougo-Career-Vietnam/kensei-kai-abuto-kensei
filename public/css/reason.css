@@ -204,15 +204,15 @@
   
 #page-reason  .block-reason .box-meassge h2 {
     font-size: 20px;
-    color: #D9534F;
+    color: #EB5050;
     margin-bottom: 15px;
 }
 
 #page-reason  .block-reason .box-meassge .badge {
-    background-color: #D9534F;
+    background-color: #EB5050;
     color: #FFFFFF;
     padding: 0px 10px;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     font-size: 20px;
     margin-right: 15px;
 }
