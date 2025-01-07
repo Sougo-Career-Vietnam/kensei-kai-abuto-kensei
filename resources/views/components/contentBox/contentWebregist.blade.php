@@ -74,15 +74,15 @@
 
      <div class="icon-left">
       <picture class="image">
-        <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_icon_01_sp.png')}}">
-        <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_icon_01_pc.png')}}">
+        <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_icon_01_sp.png')}} 2x">
+        <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_icon_01_pc.png')}} 2x">
         <img class="sizes" src="{{asset('images/top/tour_icon_01_pc.png')}}" alt="">
        </picture>
      </div>
      <div class="icon-right">
       <picture class="image">
-        <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_icon_02_sp.png')}}">
-        <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_icon_02_pc.png')}}">
+        <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_icon_02_sp.png')}} 2x">
+        <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_icon_02_pc.png')}} 2x">
         <img class="sizes" src="{{asset('images/top/tour_icon_02_pc.png')}}" alt="">
        </picture>
      </div>
