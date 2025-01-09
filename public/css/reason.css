@@ -153,6 +153,7 @@
 #page-reason .dd-number {
   font-size: 18px;
   line-height: 32px;
+  text-align: justify;
 }
 #page-reason .dl-number {
     width: 56%;

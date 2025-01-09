@@ -9,9 +9,6 @@
      </picture>
    </div>
 
-
-
-
     <h2 class="title-webregist">
       <span class="text-image">
         <picture class="image">
@@ -35,43 +32,30 @@
                     <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_slider_01_pc.png')}}">
                     <img class="sizes" src="{{asset('images/top/tour_slider_01_pc.png')}}" alt="">
                   </picture>
-         
               </li>
-
               <li class="item-sdider swiper-slide">
                 <picture class="image">
                   <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_slider_02_sp.png')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_slider_02_pc.png')}}">
                     <img class="sizes" src="{{asset('images/top/tour_slider_02_pc.png')}}" alt="">
                 </picture>
-        
               </li>
-
               <li class="item-sdider swiper-slide">
                 <picture class="image">
                   <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_slider_03_sp.png')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/top/tour_slider_03_pc.png')}}">
                     <img class="sizes" src="{{asset('images/top/tour_slider_03_pc.png')}}" alt="">
                 </picture>
-  
               </li>
-
-
           </ul>
-
       </div>
       <div class="slider__controls flex">
           <div class="slider-pagination"></div>
       </div>
-
-
     </div>
-
-
     <div class="box-link-top">
       <a  class="a-link webregist" href="{{Route('top')}}/webregist">詳しくはこちら</a>
      </div>
-
      <div class="icon-left">
       <picture class="image">
         <source media="(max-width: 767px)" srcset="{{asset('images/top/tour_icon_01_sp.png')}} 2x">

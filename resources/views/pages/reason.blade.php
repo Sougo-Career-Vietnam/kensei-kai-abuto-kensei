@@ -436,6 +436,8 @@
           autoResize: true,
           autoHeight: false,
           loopAdditionalSlides: 2,
+          lazy: false, 
+          
           autoplay: {
                     delay: 3000,// スライド間の間隔（3000=3秒）
              

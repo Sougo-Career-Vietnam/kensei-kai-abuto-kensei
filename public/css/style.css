@@ -684,8 +684,8 @@
     font-size: 15px;
     line-height: 27px;
     margin-bottom: 30px;
-    padding: 0px 15px;
-    text-align: left;
+    padding: 0px 17px;
+    text-align: justify;
 
   }
   #reason .box-slider .arrow-prev.two {
@@ -843,6 +843,7 @@
     padding-right: 0px;
     margin-bottom: 30px;
     margin-top: 20px;
+    text-align: justify;
    }
 
   #workplace .img-mobi .img-icon-work {

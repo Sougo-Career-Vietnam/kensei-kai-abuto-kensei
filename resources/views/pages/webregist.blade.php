@@ -177,19 +177,19 @@
                                         <div class="label">
                                             <span class="text">step</span> 01
                                         </div>
-                                        <span>お申込み情報の<br class="only_mb">入力</span>
+                                        <span class="notosanjk">お申込み情報の<br class="only_mb">入力</span>
                                     </div>
                                     <div class="step">
                                         <div class="label">
                                             <span class="text">step</span> 02
                                         </div>
-                                        <span>入力情報の<br class="only_mb">確認</span>
+                                        <span class="notosanjk">入力情報の<br class="only_mb">確認</span>
                                     </div>
                                     <div class="step">
                                         <div class="label">
                                             <span class="text">step</span> 03
                                         </div>
-                                        <span>お申込み <br class="only_mb">完了</span>
+                                        <span class="notosanjk">お申込み <br class="only_mb">完了</span>
                                     </div>
                                 </div>
     

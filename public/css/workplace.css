@@ -324,6 +324,7 @@
     #workplace .dd-slider {
         font-size: 15px;
         line-height: 27px;
+        text-align: justify;
     }
     #workplace .gallery {
         padding-top: 30px;
@@ -352,6 +353,7 @@
         font-size: 15px;
         line-height: 27px;
         margin-bottom: 18px;
+        text-align: justify;
     }
 
     .gallery-slider .swiper-slide, .gallery-slider02 .swiper-slide, .gallery-slider03 .swiper-slide, .gallery-slider04 .swiper-slide {
