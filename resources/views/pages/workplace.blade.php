@@ -12,7 +12,7 @@
         <main id="main_wrap">
 
             <div id="workplace">
-                <div class="commonInner-slider js-fadein">
+                <div class="commonInner-slider">
                     <h2 class="contentHeading">
                         <span class="ja">職場紹介</span>
                         <span class="en">WORKPLACE</span>
@@ -287,8 +287,8 @@
                                     <img class="sizes" src="{{asset('images/workplace/02slider_03_pc.png')}}" alt="">
                               </picture>
                               <dl class="dl-slider">
-                                <dt class="dt-slider">ポーチから見える景色</dt>
-                                <dd class="dd-slider">目の前に瀬戸内海を見ることができ、時には外に出てバーべキューをしたり、桜のシーズンには花見をして季節を楽しんでいます。</dd>
+                                <dt class="dt-slider">居室</dt>
+                                <dd class="dd-slider">個室なのでテレビを見たり、読書をしたりとゆったりと過ごすことができます。</dd>
                             </dl>
                             </div>
                             <div class="swiper-slide">
@@ -545,7 +545,8 @@
                    {{--p4--}}
                    <section class="gallery" id="p4">  
                     <div class="box-title">    
-                        <h3 class="title-samll">地域密着型特別養護老人ホーム ざおう健生苑本館</h3>
+                        <h3 class="title-samll pc-br">地域密着型特別養護老人ホーム ざおう健生苑本館</h3>
+                        <h3 class="title-samll sp-br">地域密着型特別養護老人ホーム</h3>
                         <div class="title-sub">
                             <span class="text-sub">募集職種</span>
                             <span class="text-sub-02">介護士</span>

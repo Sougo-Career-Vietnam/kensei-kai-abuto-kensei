@@ -133,6 +133,9 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     display: block;
     flex: 0 1 auto;
     padding-left: 1em;
+    @media print, screen and (max-width: 1350px){
+      margin-left: -40px;
+    }
     &.modalOn {
       top: 0 !important;
     }
@@ -143,7 +146,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     position: absolute;
     left: 0;
     width: 100%;
-    background: $spHeaderMenuBgColor;
+    background: #E2ECFB;
     overflow-y: auto;
     z-index: 1;
   }
@@ -360,14 +363,16 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           border-radius: 10px;
           color: white;
           position: relative;
+          padding-right: 8px !important;
           &::after {
             content: "";
             position: absolute;
-            background-image: url(/public/images/common/icon_serch.svg);
-            width: 26px;
-            height: 26px;
-            top: 14px;
-            left: 45px;
+            background-image: url(/public/images/common/icon_serch_sp.svg);
+            width: 34px;
+            height: 34px;
+            top: 7px;
+            left: 55px;
+            transform: scale(0.5);
           }
         }
       }
@@ -382,11 +387,12 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           &::after {
             content: "";
             position: absolute;
-            background-image: url(/public/images/common/icon_home.svg);
-            width: 26px;
-            height: 26px;
-            top: 11px;
-            left: 45px;
+            background-image: url(/public/images/common/icon_home_sp.svg);
+            width: 34px;
+            height: 34px;
+            top: 7px;
+            left: 50px;
+            transform: scale(0.5);
           }
         }
       }
@@ -405,7 +411,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           width: 250px;
           height: 50px;
           padding: 9px 0;
-          border-radius: 30px;
+          border-radius: 16px;
           .letterTop {
             margin: 0 10px 0 0;
             line-height: 1;
@@ -484,6 +490,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
         
             &:hover {
               background: #EB5050; // Màu nền khi hover (bạn có thể thay đổi mã màu này)
+              overflow: hidden;
             }
             &::after {
               content: "";
@@ -499,7 +506,8 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     
           &:hover {
             .navItemFlex {
-              background: $white;
+              background: #E2ECFB;
+              border-radius: 10px;
             }
           }
         }
@@ -534,6 +542,8 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           &:hover {
             .navItemFlex {
               // border: 1px solid $mainColor;
+
+              
             }
           }
         }
@@ -685,7 +695,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
 
       &:hover {
         .navItemFlex {
-          background: $white;
+          background: transparent;
         }
       }
     }
@@ -705,7 +715,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           background-image: url(/public/images/common/icon_serch.svg);
           width: 26px;
           height: 26px;
-          top: 14px;
+          top: 11px;
           left: 21px;
         }
 

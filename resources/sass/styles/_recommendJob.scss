@@ -64,12 +64,12 @@
   }
   .ja {
     font-family: $fontZen;
-    font-size: rem(40);
+    font-size: rem(25);
     font-weight: 700;
     letter-spacing: 0.02em;
     margin-bottom: 10px;
     @include minWidthXs {
-      font-size: rem(25);
+      font-size: rem(40);
     }
   }
 }

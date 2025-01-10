@@ -19,7 +19,34 @@
     position: relative;
     z-index: 900;
     margin: 0 auto;
+
+
+
+   
     @include minWidthXs {
+      margin-top: -174px;
+      max-width: $defInnerWidthPc;
+      height: 120px;
+      border-radius: 60px;
+      // box-shadow: 0px 3px 6px #E2ECFB;
+      position: relative;
+      z-index: 99;
+      &::after {
+        content: "";
+        position: absolute;
+        background: white;
+        box-shadow: 0px 3px 6px #E2ECFB;
+        width: calc(101%);
+        height: 120px;
+        left: 0%;
+        top: 0px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        z-index: -1;
+      }
+     }
+
+     @media (min-width: 1400px) {
       margin-top: -174px;
       max-width: $defInnerWidthPc;
       height: 120px;
@@ -41,8 +68,10 @@
         z-index: -1;
       }
 
-
     }
+
+
+
     @media (max-width: 1500px) {
       max-width:80% !important
     }

@@ -1,0 +1,15 @@
+<svg id="icon_虫眼鏡" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1442" data-name="Rectangle 1442" width="34" height="34" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1817" data-name="Group 1817" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(0.677 0.678)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+      <circle cx="15.123" cy="15.123" r="15.123" stroke="none"/>
+      <circle cx="15.123" cy="15.123" r="14.123" fill="none"/>
+    </g>
+    <line id="Line_86" data-name="Line 86" x1="7.027" y1="7.027" transform="translate(26.494 26.494)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_4986" data-name="Path 4986" d="M6.711,7.438a9.488,9.488,0,0,1,13.419,0" transform="translate(2.379 1.652)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

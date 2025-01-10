@@ -15,7 +15,7 @@
                     <span class="ja">3つの働きやすい理由</span>
                 </h2>
                 <div class="commonInner-slider js-fadein">
-                  <div class="box-slider">
+                  <div class="box-slider mobi">
                     <div class="slider mySwiper">
                         <ul class="list-slider swiper-wrapper">
                             <li class="item-sdider swiper-slide">
@@ -91,6 +91,74 @@
                         </div>
                     </div>
                   </div>
+                  <div class="box-slider destop">
+                    <div class="slider">
+                        <ul class="list-slider flex">
+                            <li class="item-sdider pc">
+                            <a href="#p1" class="scroll">
+                              <p class="number-reason">01</p>
+                                <picture class="image-p">
+                                  <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_01_sp.png')}}">
+                                  <source media="(min-width: 768px)" srcset="{{asset('images/reason/reason_01_pc.png')}}">
+                                  <img class="sizes" src="{{asset('images/reasonreason_01_pc.png')}}" alt="">
+                                </picture>
+                                <dl class="dl-slider">
+                                  <dt class="dt-slider">介護ロボット<br class="pc-br">ICT導入</dt>
+                                  <dd class="dd-slider">最新技術で効率化や負担軽減し、<br>
+                                    働きやすさをサポートします。</dd>
+                                    <dd class="dd-icon">
+                                      <picture class="image">
+                                        <source  srcset="{{asset('images/top/slider_icon_01.svg')}}">
+                                        <img class="sizes" src="{{asset('images/top/slider_icon_01.svg')}}" alt="">
+                                      </picture>
+                                    </dd>
+                                </dl>   
+                            </a>
+                            </li>
+                            <li class="item-sdider two pc">
+                                <a href="#p2" class="scroll">
+                              <p class="number-reason">02</p>
+                                <picture class="image-p">
+                                  <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_02_sp.png')}}">
+                                  <source media="(min-width: 768px)" srcset="{{asset('images/reason/reason_02_pc.png')}}">
+                                  <img class="sizes" src="{{asset('images/reason/reason_02_pc.png')}}" alt="">
+                                </picture>
+                                <dl class="dl-slider">
+                                  <dt class="dt-slider">未経験の方への<br class="pc-br">フォロー体制</dt>
+                                  <dd class="dd-slider">研修や勉強会で基礎から学び、<br>
+                                    安心して働くことができます。</dd>
+                                    <dd class="dd-icon">
+                                      <picture class="image">
+                                        <source  srcset="{{asset('images/top/slider_icon_02.svg')}}">
+                                        <img class="sizes" src="{{asset('images/top/slider_icon_02.svg')}}" alt="">
+                                      </picture>
+                                    </dd>
+                                </dl>   
+                            </a>
+                            </li>
+                            <li class="item-sdider three pc">
+                                <a href="#p3" class="scroll">
+                              <p class="number-reason">03</p>
+                                <picture class="image-p">
+                                  <source media="(max-width: 767px)" srcset="{{asset('images/reason/reason_03_sp.png')}}">
+                                  <source media="(min-width: 768px)" srcset="{{asset('images/reason/reason_03_pc.png')}}">
+                                  <img class="sizes" src="{{asset('images/reason/reason_03_pc.png')}}" alt="">
+                                </picture>
+                                <dl class="dl-slider">
+                                  <dt class="dt-slider">給与と手当の<br class="pc-br">手厚い還元</dt>
+                                  <dd class="dd-slider">安定した収入と充実の手当で<br class="sp-br">長く働ける<br class="pc-br">
+                                    <dd class="dd-icon">
+                                      <picture class="image">
+                                        <source  srcset="{{asset('images/top/slider_icon_03.svg')}}">
+                                        <img class="sizes" src="{{asset('images/top/slider_icon_03.svg')}}" alt="">
+                                      </picture>
+                                    </dd>
+                                </dl> 
+                            </a>  
+                            </li>
+                        </ul>
+                    </div>
+   
                 </div>
             </section>
 
@@ -302,7 +370,7 @@
                               <div class="info-box">
                                 <div class="flex top-title">
                                   <p> <span class="age">30歳</span><span class="role">介護福祉士</span></p>
-                                  <p> <span class="total">合計</span><span class="total-big">272,600</span><span><span class="total">円</span><span class="total-samll">＋通勤手当</span></p>
+                                  <p> <span class="total">合計</span><span class="total-big">272,600</span><span><span class="total">円</span><span class="total-samll">＋ 通勤手当</span></p>
                                 </div>
                                 <p class="note">※ 休まず月5回夜勤をした場合</p>
                               </div>
@@ -436,8 +504,6 @@
           autoResize: true,
           autoHeight: false,
           loopAdditionalSlides: 2,
-          lazy: false, 
-          
           autoplay: {
                     delay: 3000,// スライド間の間隔（3000=3秒）
              
