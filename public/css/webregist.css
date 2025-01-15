@@ -215,7 +215,8 @@ body {
     font-size: 18px;
     flex: 0 0 240px;
     /* padding-top: 11px; */
-    padding-top: 17px;
+    padding-top: 3px;
+    
 }
 
 #kensei_contact .block_contact_form .required::after {
@@ -223,7 +224,7 @@ body {
     color: #fff;
     background: #EB5050;
     font-size: 16px;
-    padding: 2px 8px 3px 7px;
+    padding: 2px 9px 3px 6px;
     margin-left: 26px;
     border-radius: 3px;
 }
@@ -1599,7 +1600,7 @@ body {
         color: #fff;
         background: #e74c3c;
         font-size: 13px;
-        padding: 1px 3px;
+        padding: 1px 5px 1px 2px;
         margin-left: 15px;
         border-radius: 3px;
     }

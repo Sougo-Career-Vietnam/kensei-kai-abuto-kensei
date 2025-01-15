@@ -92,12 +92,13 @@ footer
       font-weight: 700;
       font-size: rem(16);
       font-style: normal;
-      line-height: 1.1;
+      line-height: 1.2;
       margin-top: 0.4rem;
       transition: all 0.3s ease;
       @include xs {
         margin-top: 0;
         font-size: rem(12);
+        line-height: 1.1;
       }
     }
 
@@ -333,8 +334,8 @@ footer
  
     span:hover {
       opacity: 0.7;
+      color: white !important;
      
-    
     }
     @include minWidthXs {
         width: 100%;

@@ -31,7 +31,7 @@
 
 
 #page-reason .box-slider .item-sdider {
- transition: 0.5s;
+ /* transition: 0.5s; */
  /* overflow: hidden; */
 }
 #page-reason .box-slider .item-sdider::after {
@@ -418,19 +418,19 @@
     display: none !important;
 }
 
-#page-reason .box-slider.mobi {
+/* #page-reason .box-slider.mobi {
     display: none;
 }
 #page-reason .box-slider.destop {
     display:  block;
-}
+} */
 @media (max-width: 767px) {
-    #page-reason .box-slider.mobi {
+    /* #page-reason .box-slider.mobi {
         display:  block;
     }
     #page-reason .box-slider.destop {
         display: none;
-    }
+    } */
     #page-reason #reason .dl-slider .dd-slider {
         display: block !important;
     }

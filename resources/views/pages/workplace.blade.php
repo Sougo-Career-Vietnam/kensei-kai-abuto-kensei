@@ -545,8 +545,8 @@
                    {{--p4--}}
                    <section class="gallery" id="p4">  
                     <div class="box-title">    
-                        <h3 class="title-samll pc-br">地域密着型特別養護老人ホーム ざおう健生苑本館</h3>
-                        <h3 class="title-samll sp-br">地域密着型特別養護老人ホーム</h3>
+                        {{-- <h3 class="title-samll pc-br">地域密着型特別養護老人ホーム ざおう健生苑本館</h3> --}}
+                        <h3 class="title-samll">地域密着型特別養護老人ホーム<br class="sp-br">ざおう健生苑本館</h3>
                         <div class="title-sub">
                             <span class="text-sub">募集職種</span>
                             <span class="text-sub-02">介護士</span>

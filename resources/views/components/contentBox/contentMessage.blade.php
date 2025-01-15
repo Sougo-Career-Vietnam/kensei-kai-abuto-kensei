@@ -15,8 +15,8 @@
       </p>
       <div class="img-icon">
         <picture class="image">
-          <source media="(max-width: 767px)" srcset="{{asset('images/top/meassge_icon_sp.png')}}">
-          <source media="(min-width: 768px)" srcset="{{asset('images/top/meassge_icon_pc.png')}}">
+          <source media="(max-width: 767px)" srcset="{{asset('images/top/meassge_icon_sp.png')}} 2x">
+          <source media="(min-width: 768px)" srcset="{{asset('images/top/meassge_icon_pc.png')}} 2x">
           <img class="sizes" src="{{asset('images/top/meassge_icon_pc.png')}}" alt="">
         </picture>
       </div>

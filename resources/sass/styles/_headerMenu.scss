@@ -65,8 +65,16 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       transition: opacity .3s;
       text-align: center;
       vertical-align: middle;
+      @media print, screen and (max-width: 1100px){
+        width: 200px;
+      }
+      @include xs {
+        width: 174px;
+      }
+
       @media print, screen and (max-width: 374px){
           width: 145px;
+          vertical-align: middle;
       }
     }
 
@@ -110,9 +118,12 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       margin-left: 20px;
       color: #6C7979;
       font-family: "noto-sans-cjk-jp", sans-serif;
+      @media print, screen and (max-width: 1100px){
+        font-size: rem(13);
+      }
       @include xs {
         margin-left: 10px;
-        font-size: rem(14);
+        font-size: 13px;
       }
       @media print, screen and (max-width: 374px){
         margin-left: 3px;
@@ -149,6 +160,11 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     background: #E2ECFB;
     overflow-y: auto;
     z-index: 1;
+    // @media print, screen and (max-width: 1349px){
+    //   max-width: 480px;
+    //   right: 0px;
+    //   left: unset;
+    // }
   }
 
   .navItemListInner {
@@ -157,6 +173,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     flex-direction: row;
     align-content: flex-start;
     padding-right: 22px;
+
   }
 
   .navItemFlex {
@@ -343,6 +360,85 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     */
     
   @media print, screen and (max-width: 1349px){
+      .navItemListSp {
+        .navItem{
+          margin-bottom: 0px !important;
+        }
+        @media print, screen and (max-width: 767px){ 
+          .navItem{
+            padding: 0px !important;
+          }
+        }
+
+      }
+      .modalMenu {
+       .navItemList {
+        padding: 0px 30px;
+        max-width: 480px;
+        right: 0px;
+        left: unset;
+  
+       }
+
+
+
+
+        span {
+          font-size: 24px;
+          font-weight: 500;
+     
+        }
+
+        .navItem{
+            border-top: 3px dotted white;
+            padding: 40px 0px 40px;
+        }
+        .navItem.navItemBg.navItemEntry {
+          padding: 85px 0px 40px;
+        }
+        .navItemListInner {
+          padding-right: 0px;
+        }
+
+
+        .navItem:nth-child(1), .navItem:nth-child(5) {
+          border-top: none;
+        }
+        @media print, screen and (max-width: 767px){
+
+          .navItemList {
+            padding: 0px 10px;
+            max-width: 100%;
+           }
+           span {
+            font-size: 16px;
+            font-weight: 500;
+       
+          }
+          .navItem:nth-child(1) {
+            padding: 60px 0px 30px;
+          }
+          .navItem{
+              border-top: 3px dotted white;
+              padding: 30px 0px 28px;
+          }
+          .navItem.navItemBg.navItemEntry {
+            padding: 20px 0px 0px;
+          }
+     
+          .navItem:nth-child(5) {
+              padding-top: 25px;
+          }
+
+
+        }
+
+
+
+
+      
+      }
+
     .navItem{
       flex: auto;
     }
@@ -359,7 +455,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       &.navItemSearch {
         .js-clickitem {
           background-color: #6D9EEB;
-          border: 1px solid $white;
+          // border: 1px solid $white;
           border-radius: 10px;
           color: white;
           position: relative;
@@ -367,12 +463,20 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           &::after {
             content: "";
             position: absolute;
-            background-image: url(/public/images/common/icon_serch_sp.svg);
-            width: 34px;
-            height: 34px;
-            top: 7px;
-            left: 55px;
-            transform: scale(0.5);
+            background-image: url(/public/images/common/icon_serch_tb.svg);
+            width: 30px;
+            height: 30px;
+            top: 17px;
+            left: 28px;
+            transform: scale(1);
+            @media print, screen and (max-width: 767px){
+              background-image: url(/public/images/common/icon_serch_sp.svg);
+              width: 34px;
+              height: 34px;
+              top: 7px;
+              left: 60px;
+              transform: scale(0.5);
+            }
           }
         }
       }
@@ -380,19 +484,27 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
         padding-top: 10px;
         .js-clickitem {
           background-color: #F39393;
-          border: 1px solid $white;
+          // border: 1px solid $white;
           border-radius: 10px;
           color: white;
           position: relative;
           &::after {
             content: "";
             position: absolute;
-            background-image: url(/public/images/common/icon_home_sp.svg);
-            width: 34px;
-            height: 34px;
-            top: 7px;
-            left: 50px;
-            transform: scale(0.5);
+            background-image: url(/public/images/common/icon_home_tb.svg);
+            width: 30px;
+            height: 30px;
+            top: 14px;
+            left: 20px;
+       
+            @media print, screen and (max-width: 767px){
+              background-image: url(/public/images/common/icon_home_sp.svg);
+              width: 34px;
+              height: 34px;
+              top: 7px;
+              left: 60px;
+              transform: scale(0.5);
+            }
           }
         }
       }
@@ -408,10 +520,17 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
           display: flex;
           justify-content: center;
           align-items : center;
-          width: 250px;
-          height: 50px;
+          width: 220px;
+          height: 61px;
           padding: 9px 0;
           border-radius: 16px;
+          padding-left: 40px;
+
+          @include xs {
+            width: 250px;
+            height: 50px;
+            padding-left: 27px;
+          }
           .letterTop {
             margin: 0 10px 0 0;
             line-height: 1;
@@ -500,6 +619,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
               height: 26px;
               top: 11px;
               left: 23px;
+              transform: scale(1);
             }
             
           }
@@ -531,6 +651,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
               height: 26px;
               top: 14px;
               left: 21px;
+              transform: scale(1);
             }
     
           }
@@ -664,6 +785,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
         transition: all 0.3s ease;
         span {
           transition: all 0.3s ease;
+      
         }
       }
       .js-clickitem {

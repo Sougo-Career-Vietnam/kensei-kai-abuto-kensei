@@ -15,7 +15,7 @@
                     <span class="ja">3つの働きやすい理由</span>
                 </h2>
                 <div class="commonInner-slider js-fadein">
-                  <div class="box-slider mobi">
+                  <div class="box-slider">
                     <div class="slider mySwiper">
                         <ul class="list-slider swiper-wrapper">
                             <li class="item-sdider swiper-slide">
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                   </div>
-                  <div class="box-slider destop">
+                  {{-- <div class="box-slider destop">
                     <div class="slider">
                         <ul class="list-slider flex">
                             <li class="item-sdider pc">
@@ -159,7 +159,7 @@
                         </ul>
                     </div>
    
-                </div>
+                </div> --}}
             </section>
 
               <div class="content-main">
